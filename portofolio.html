@@ -1,0 +1,3742 @@
+﻿<!DOCTYPE html>
+<html lang="id" data-tema="gelap">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta -->
+    <title>Erik Khoirul Adam &mdash; Full-Stack Laravel Developer</title>
+    <meta name="description" content="Portofolio Erik Khoirul Adam (rikchodam) - Full-Stack Laravel Developer. Spesialis Laravel, Tailwind CSS, Livewire, dan integrasi sistem kompleks untuk edukasi hingga industrial.">
+    <meta name="author" content="Erik Khoirul Adam">
+    <meta name="keywords" content="Laravel Developer, PHP, Full-Stack, Portfolio, rikchodam, Erik Khoirul Adam, Web Developer Indonesia">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rikchodam.github.io/portofolio/">
+    <meta property="og:title" content="Erik Khoirul Adam &mdash; Full-Stack Laravel Developer">
+    <meta property="og:description" content="Portofolio Erik Khoirul Adam (rikchodam) - Full-Stack Laravel Developer. Spesialis Laravel, Tailwind CSS, Livewire, dan integrasi sistem kompleks.">
+    <meta property="og:image" content="https://ui-avatars.com/api/?name=Erik+Khoirul+Adam&background=f59e0b&color=0c1220&size=512">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Erik Khoirul Adam &mdash; Full-Stack Laravel Developer">
+    <meta name="twitter:description" content="Portofolio Erik Khoirul Adam (rikchodam) - Full-Stack Laravel Developer.">
+    <meta name="twitter:image" content="https://ui-avatars.com/api/?name=Erik+Khoirul+Adam&background=f59e0b&color=0c1220&size=512">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://rikchodam.github.io/portofolio/">
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23f59e0b'/%3E%3Ctext x='50' y='68' text-anchor='middle' font-family='Arial' font-weight='bold' font-size='48' fill='%230c1220'%3EEKA%3C/text%3E%3C/svg%3E" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23f59e0b'/%3E%3Ctext x='50' y='68' text-anchor='middle' font-family='Arial' font-weight='bold' font-size='48' fill='%230c1220'%3EEKA%3C/text%3E%3C/svg%3E">
+
+    <!-- Structured Data (JSON-LD): Person -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Erik Khoirul Adam",
+        "alternateName": "rikchodam",
+        "url": "https://rikchodam.github.io/portofolio/",
+        "image": "https://ui-avatars.com/api/?name=Erik+Khoirul+Adam&background=f59e0b&color=0c1220&size=512",
+        "jobTitle": "Full-Stack Laravel Developer",
+        "email": "rikchodam@gmail.com",
+        "sameAs": [
+            "https://github.com/rikchodam-glitch",
+            "https://www.linkedin.com/in/erik-khoirul-adam-6b814138a/"
+        ],
+        "knowsAbout": ["Laravel", "PHP", "Tailwind CSS", "Livewire", "Alpine.js", "MySQL", "REST API"],
+        "description": "Full-Stack Laravel Developer yang membangun sistem web dari edukasi hingga industrial."
+    }
+    </script>
+
+    <!-- Structured Data (JSON-LD): WebSite -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Portofolio Erik Khoirul Adam",
+        "url": "https://rikchodam.github.io/portofolio/",
+        "author": {
+            "@type": "Person",
+            "name": "Erik Khoirul Adam"
+        },
+        "description": "Portofolio Full-Stack Laravel Developer"
+    }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Devicon v2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css">
+
+    <style>
+        /* =============================================
+           1. CSS CUSTOM PROPERTIES
+        ============================================= */
+        :root {
+            --warna-bg:           #0a0e1a;
+            --warna-bg-surface:   #0f1525;
+            --warna-bg-raised:    #151d33;
+            --warna-bg-glass:     rgba(10, 14, 26, 0.82);
+            --warna-bg-card:      rgba(15, 21, 37, 0.6);
+
+            --warna-aksen:         #f59e0b;
+            --warna-aksen-hover:   #d97706;
+            --warna-aksen-redup:   rgba(245, 158, 11, 0.10);
+            --warna-aksen-cahaya:  rgba(245, 158, 11, 0.05);
+            --warna-aksen-border:  rgba(245, 158, 11, 0.25);
+            --warna-aksen-glow:    0 0 40px rgba(245, 158, 11, 0.15);
+
+            --warna-biru:        #38bdf8;
+            --warna-biru-redup:  rgba(56, 189, 248, 0.10);
+            --warna-biru-glow:   0 0 40px rgba(56, 189, 248, 0.10);
+            --warna-hijau:       #34d399;
+            --warna-ungu:        #a78bfa;
+            --warna-merah:       #f87171;
+
+            --warna-teks:              #f1f5f9;
+            --warna-teks-redup:        #94a3b8;
+            --warna-teks-sangat-redup: #475569;
+
+            --warna-border:       #1a2340;
+            --warna-border-aktif: #253050;
+
+            --font-judul: 'Space Grotesk', sans-serif;
+            --font-tubuh: 'Inter', sans-serif;
+            --font-kode:  'JetBrains Mono', 'Courier New', monospace;
+
+            --bobot-normal:   400;
+            --bobot-medium:   500;
+            --bobot-semibold: 600;
+            --bobot-bold:     700;
+
+            --teks-xs:   0.75rem;
+            --teks-sm:   0.875rem;
+            --teks-md:   1rem;
+            --teks-lg:   1.125rem;
+            --teks-xl:   1.25rem;
+            --teks-2xl:  1.5rem;
+            --teks-3xl:  1.875rem;
+            --teks-4xl:  2.25rem;
+            --teks-5xl:  3rem;
+            --teks-6xl:  3.75rem;
+            --teks-7xl:  4.5rem;
+
+            --jarak-1:  0.25rem;
+            --jarak-2:  0.5rem;
+            --jarak-3:  0.75rem;
+            --jarak-4:  1rem;
+            --jarak-5:  1.25rem;
+            --jarak-6:  1.5rem;
+            --jarak-8:  2rem;
+            --jarak-10: 2.5rem;
+            --jarak-12: 3rem;
+            --jarak-16: 4rem;
+            --jarak-20: 5rem;
+            --jarak-24: 6rem;
+
+            --radius-sm:    0.25rem;
+            --radius-md:    0.5rem;
+            --radius-lg:    0.75rem;
+            --radius-xl:    1rem;
+            --radius-2xl:   1.25rem;
+            --radius-3xl:   1.5rem;
+            --radius-penuh: 9999px;
+
+            --bayangan-sm:    0 1px 3px rgba(0,0,0,0.5);
+            --bayangan-md:    0 4px 20px rgba(0,0,0,0.4);
+            --bayangan-lg:    0 8px 40px rgba(0,0,0,0.5);
+            --bayangan-aksen: 0 0 30px rgba(245,158,11,0.12);
+
+            --transisi-cepat:  150ms ease;
+            --transisi-normal: 300ms ease;
+            --transisi-lambat: 500ms cubic-bezier(0.22, 1, 0.36, 1);
+
+            --tinggi-navbar:   68px;
+            --lebar-kontainer: 1200px;
+            --padding-section: var(--jarak-24) 0;
+
+            --z-dasar:    1;
+            --z-melayang: 10;
+            --z-sticky:   50;
+            --z-navbar:   100;
+            --z-modal:    200;
+            --z-loading:  300;
+        }
+
+        [data-tema="terang"] {
+            --warna-bg:           #f6f8fc;
+            --warna-bg-surface:   #ffffff;
+            --warna-bg-raised:    #eef2f7;
+            --warna-bg-glass:     rgba(246, 248, 252, 0.90);
+            --warna-bg-card:      rgba(255, 255, 255, 0.7);
+
+            --warna-aksen:             #d97706;
+            --warna-aksen-hover:       #b45309;
+            --warna-aksen-redup:       rgba(217, 119, 6, 0.08);
+            --warna-aksen-cahaya:      rgba(217, 119, 6, 0.03);
+            --warna-aksen-border:      rgba(217, 119, 6, 0.22);
+            --warna-aksen-glow:        0 0 40px rgba(217, 119, 6, 0.08);
+
+            --warna-biru:              #0284c7;
+            --warna-biru-redup:        rgba(2, 132, 199, 0.08);
+            --warna-biru-glow:         0 0 40px rgba(2, 132, 199, 0.06);
+            --warna-hijau:             #059669;
+            --warna-ungu:              #7c3aed;
+            --warna-merah:             #dc2626;
+
+            --warna-teks:              #0f172a;
+            --warna-teks-redup:        #475569;
+            --warna-teks-sangat-redup: #94a3b8;
+
+            --warna-border:            #e2e8f0;
+            --warna-border-aktif:      #cbd5e1;
+            --bayangan-sm:             0 1px 3px rgba(0,0,0,0.06);
+            --bayangan-md:             0 4px 16px rgba(0,0,0,0.06);
+            --bayangan-lg:             0 8px 40px rgba(0,0,0,0.08);
+        }
+
+        /* =============================================
+           2. RESET & BASE
+        ============================================= */
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+
+        body {
+            font-family: var(--font-tubuh);
+            font-size: var(--teks-md);
+            font-weight: var(--bobot-normal);
+            line-height: 1.7;
+            color: var(--warna-teks);
+            background-color: var(--warna-bg);
+            min-height: 100vh;
+            overflow-x: hidden;
+            transition: background-color var(--transisi-lambat), color var(--transisi-lambat);
+        }
+
+        /* Subtle grid pattern background */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image:
+                linear-gradient(var(--warna-border) 1px, transparent 1px),
+                linear-gradient(90deg, var(--warna-border) 1px, transparent 1px);
+            background-size: 60px 60px;
+            opacity: 0.3;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-judul);
+            font-weight: var(--bobot-bold);
+            line-height: 1.15;
+            color: var(--warna-teks);
+        }
+
+        p { color: var(--warna-teks-redup); line-height: 1.7; }
+        code, pre, .kode { font-family: var(--font-kode); }
+        a { color: inherit; text-decoration: none; }
+        button { cursor: pointer; border: none; background: none; font: inherit; color: inherit; }
+        ul, ol { list-style: none; }
+        img { max-width: 100%; display: block; }
+
+        :focus-visible {
+            outline: 2px solid var(--warna-aksen);
+            outline-offset: 3px;
+            border-radius: var(--radius-sm);
+        }
+
+        .sr-only {
+            position: absolute; width: 1px; height: 1px;
+            padding: 0; margin: -1px; overflow: hidden;
+            clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+        }
+
+        .skip-link {
+            position: fixed; top: -100%; left: var(--jarak-4);
+            padding: var(--jarak-3) var(--jarak-6);
+            background: var(--warna-aksen); color: #0a0e1a;
+            font-family: var(--font-kode); font-size: var(--teks-sm);
+            font-weight: var(--bobot-semibold);
+            border-radius: 0 0 var(--radius-md) var(--radius-md);
+            z-index: calc(var(--z-navbar) + 2);
+            transition: top 200ms ease;
+        }
+        .skip-link:focus { top: 0; }
+
+        /* =============================================
+           3. LAYOUT UTILITY
+        ============================================= */
+        .kontainer {
+            width: 100%;
+            max-width: var(--lebar-kontainer);
+            margin: 0 auto;
+            padding: 0 var(--jarak-6);
+        }
+
+        .section {
+            padding: var(--padding-section);
+            scroll-margin-top: calc(var(--tinggi-navbar) + var(--jarak-4));
+            position: relative;
+        }
+
+        .section-label {
+            font-family: var(--font-kode);
+            font-size: var(--teks-sm);
+            font-weight: var(--bobot-medium);
+            color: var(--warna-aksen);
+            letter-spacing: 0.12em;
+            text-transform: lowercase;
+            display: inline-flex;
+            align-items: center;
+            gap: var(--jarak-2);
+            margin-bottom: var(--jarak-3);
+        }
+
+        .section-label::before {
+            content: '';
+            width: 24px;
+            height: 2px;
+            background: var(--warna-aksen);
+            border-radius: var(--radius-penuh);
+        }
+
+        .section-judul {
+            font-size: var(--teks-4xl);
+            font-weight: var(--bobot-bold);
+            color: var(--warna-teks);
+            margin-bottom: var(--jarak-4);
+        }
+
+        .section-judul .aksen {
+            background: linear-gradient(135deg, var(--warna-aksen), var(--warna-biru));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .section-deskripsi {
+            font-size: var(--teks-lg);
+            color: var(--warna-teks-redup);
+            max-width: 560px;
+            margin-top: var(--jarak-4);
+        }
+
+        .section-header {
+            margin-bottom: var(--jarak-12);
+        }
+
+        /* =============================================
+           4. LOADING SCREEN
+        ============================================= */
+        #layar-loading {
+            position: fixed;
+            inset: 0;
+            background-color: var(--warna-bg);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: var(--jarak-6);
+            z-index: var(--z-loading);
+            transition: opacity 600ms ease, visibility 600ms ease;
+        }
+
+        #layar-loading.tersembunyi {
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+        }
+
+        .loading-logo {
+            position: relative;
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .loading-logo-svg {
+            width: 80px;
+            height: 80px;
+            animation: loadingPulse 2s ease-in-out infinite;
+        }
+
+        @keyframes loadingPulse {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.05); opacity: 0.8; }
+        }
+
+        .loading-ring {
+            position: absolute;
+            inset: -4px;
+            border-radius: var(--radius-2xl);
+            border: 2px solid transparent;
+            border-top-color: var(--warna-aksen);
+            border-right-color: var(--warna-biru);
+            animation: loadingSpin 1.2s cubic-bezier(0.45, 0, 0.15, 1) infinite;
+        }
+
+        @keyframes loadingSpin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .loading-teks {
+            font-family: var(--font-kode);
+            font-size: var(--teks-sm);
+            color: var(--warna-teks-sangat-redup);
+            letter-spacing: 0.08em;
+        }
+
+        .loading-teks .aksen { color: var(--warna-aksen); }
+
+        /* Loading dots animation */
+        .loading-teks::after {
+            content: '';
+            animation: loadingDots 1.5s steps(4, end) infinite;
+        }
+
+        @keyframes loadingDots {
+            0%   { content: ''; }
+            25%  { content: '.'; }
+            50%  { content: '..'; }
+            75%  { content: '...'; }
+            100% { content: ''; }
+        }
+
+        /* =============================================
+           5. READING PROGRESS BAR
+        ============================================= */
+        #bilah-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 3px;
+            background: linear-gradient(90deg, var(--warna-aksen) 0%, var(--warna-biru) 50%, var(--warna-ungu) 100%);
+            z-index: calc(var(--z-navbar) + 1);
+            border-radius: 0 var(--radius-penuh) var(--radius-penuh) 0;
+            transition: width 80ms linear;
+            pointer-events: none;
+        }
+
+        /* =============================================
+           6. NAVBAR
+        ============================================= */
+        #navbar {
+            position: fixed;
+            top: 3px;
+            left: 0;
+            right: 0;
+            height: var(--tinggi-navbar);
+            z-index: var(--z-navbar);
+            transition: background-color var(--transisi-normal), border-color var(--transisi-normal), box-shadow var(--transisi-normal);
+        }
+
+        #navbar.navbar-scrolled {
+            background-color: var(--warna-bg-glass);
+            border-bottom: 1px solid var(--warna-border);
+            box-shadow: var(--bayangan-md);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+
+        .navbar-dalam {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: var(--tinggi-navbar);
+        }
+
+        .navbar-logo {
+            display: flex;
+            align-items: center;
+            gap: var(--jarak-3);
+            font-family: var(--font-judul);
+            font-size: var(--teks-lg);
+            font-weight: var(--bobot-semibold);
+            color: var(--warna-teks);
+            transition: opacity var(--transisi-cepat);
+        }
+
+        .navbar-logo:hover { opacity: 0.85; }
+
+        .navbar-logo-icon {
+            width: 36px;
+            height: 36px;
+            border-radius: var(--radius-lg);
+            background: linear-gradient(135deg, var(--warna-aksen), var(--warna-aksen-hover));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--font-judul);
+            font-size: var(--teks-xs);
+            font-weight: var(--bobot-bold);
+            color: #0a0e1a;
+            letter-spacing: 0.04em;
+            flex-shrink: 0;
+        }
+
+        .navbar-menu {
+            display: flex;
+            align-items: center;
+            gap: var(--jarak-1);
+        }
+
+        .navbar-link {
+            font-size: var(--teks-sm);
+            font-weight: var(--bobot-medium);
+            color: var(--warna-teks-redup);
+            padding: var(--jarak-2) var(--jarak-3);
+            border-radius: var(--radius-md);
+            position: relative;
+            transition: color var(--transisi-cepat), background-color var(--transisi-cepat);
+        }
+
+        .navbar-link:hover {
+            color: var(--warna-teks);
+            background-color: var(--warna-bg-raised);
+        }
+
+        .navbar-link.aktif {
+            color: var(--warna-aksen);
+        }
+
+        .navbar-link.aktif::after {
+            content: '';
+            position: absolute;
+            bottom: 2px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 16px;
+            height: 2px;
+            background: var(--warna-aksen);
+            border-radius: var(--radius-penuh);
+        }
+
+        .navbar-aksi {
+            display: flex;
+            align-items: center;
+            gap: var(--jarak-2);
+        }
+
+        .tombol-tema {
+            width: 36px;
+            height: 36px;
+            border-radius: var(--radius-md);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--warna-teks-redup);
+            transition: color var(--transisi-cepat), background-color var(--transisi-cepat);
+        }
+
+        .tombol-tema:hover {
+            color: var(--warna-aksen);
+            background-color: var(--warna-aksen-redup);
+        }
+
+        .tombol-hamburger {
+            display: none;
+            width: 36px;
+            height: 36px;
+            border-radius: var(--radius-md);
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            color: var(--warna-teks-redup);
+            transition: background-color var(--transisi-cepat);
+        }
+
+        .tombol-hamburger:hover { background-color: var(--warna-bg-raised); }
+
+        .hamburger-garis {
+            width: 20px;
+            height: 2px;
+            background-color: currentColor;
+            border-radius: var(--radius-penuh);
+            transition: transform var(--transisi-normal), opacity var(--transisi-cepat), width var(--transisi-normal);
+        }
+
+        .tombol-hamburger.terbuka .hamburger-garis:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+        .tombol-hamburger.terbuka .hamburger-garis:nth-child(2) { opacity: 0; width: 0; }
+        .tombol-hamburger.terbuka .hamburger-garis:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+        #navbar-menu-mobile {
+            position: fixed;
+            top: calc(var(--tinggi-navbar) + 3px);
+            right: 0;
+            width: 280px;
+            max-width: 80vw;
+            height: 100vh;
+            background: var(--warna-bg-glass);
+            backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px);
+            border-left: 1px solid var(--warna-border);
+            z-index: calc(var(--z-navbar) - 1);
+            padding: var(--jarak-6);
+            display: flex;
+            flex-direction: column;
+            gap: var(--jarak-2);
+            transform: translateX(100%);
+            visibility: hidden;
+            transition: transform var(--transisi-lambat), visibility var(--transisi-lambat);
+        }
+
+        #navbar-menu-mobile.terbuka {
+            transform: translateX(0);
+            visibility: visible;
+        }
+
+        .mobile-link {
+            padding: var(--jarak-3) var(--jarak-4);
+            border-radius: var(--radius-md);
+            font-size: var(--teks-md);
+            font-weight: var(--bobot-medium);
+            color: var(--warna-teks-redup);
+            transition: background-color var(--transisi-cepat), color var(--transisi-cepat);
+        }
+
+        .mobile-link:hover, .mobile-link.aktif {
+            background: var(--warna-aksen-redup);
+            color: var(--warna-aksen);
+        }
+
+        .mobile-divider {
+            height: 1px;
+            background: var(--warna-border);
+            margin: var(--jarak-2) 0;
+        }
+
+        .mobile-tema {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: var(--jarak-3) var(--jarak-4);
+            border-radius: var(--radius-md);
+            font-size: var(--teks-md);
+            font-weight: var(--bobot-medium);
+            color: var(--warna-teks-redup);
+            cursor: pointer;
+            transition: background-color var(--transisi-cepat), color var(--transisi-cepat);
+        }
+
+        .mobile-tema:hover {
+            background: var(--warna-aksen-redup);
+            color: var(--warna-aksen);
+        }
+
+        /* =============================================
+           7. BUTTONS
+        ============================================= */
+        .tombol {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: var(--jarak-2);
+            padding: var(--jarak-3) var(--jarak-6);
+            border-radius: var(--radius-lg);
+            font-size: var(--teks-sm);
+            font-weight: var(--bobot-semibold);
+            white-space: nowrap;
+            position: relative;
+            overflow: hidden;
+            transition: background-color var(--transisi-cepat), border-color var(--transisi-cepat), color var(--transisi-cepat), transform var(--transisi-cepat), box-shadow var(--transisi-cepat);
+        }
+
+        .tombol:active { transform: translateY(1px); }
+
+        .tombol-primer {
+            background: linear-gradient(135deg, var(--warna-aksen), var(--warna-aksen-hover));
+            color: #0a0e1a;
+            border: none;
+        }
+
+        .tombol-primer:hover {
+            box-shadow: var(--bayangan-aksen), var(--warna-aksen-glow);
+            transform: translateY(-2px);
+        }
+
+        .tombol-sekunder {
+            background-color: transparent;
+            color: var(--warna-teks);
+            border: 1px solid var(--warna-border-aktif);
+        }
+
+        .tombol-sekunder:hover {
+            border-color: var(--warna-aksen-border);
+            color: var(--warna-aksen);
+            background-color: var(--warna-aksen-cahaya);
+            transform: translateY(-2px);
+        }
+
+        /* =============================================
+           8. HERO SECTION
+        ============================================= */
+        .hero {
+            position: relative;
+            min-height: calc(100vh - var(--tinggi-navbar));
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .hero-bg {
+            position: absolute;
+            inset: 0;
+            z-index: -1;
+            overflow: hidden;
+            pointer-events: none;
+        }
+
+        /* Gradient orbs */
+        .hero-orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.5;
+            animation: orbFloat 20s ease-in-out infinite;
+        }
+
+        .hero-orb:nth-child(1) {
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(245,158,11,0.15), transparent 70%);
+            top: -10%;
+            right: -5%;
+            animation-delay: 0s;
+        }
+
+        .hero-orb:nth-child(2) {
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(56,189,248,0.10), transparent 70%);
+            bottom: -10%;
+            left: -5%;
+            animation-delay: -7s;
+        }
+
+        .hero-orb:nth-child(3) {
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(circle, rgba(167,139,250,0.10), transparent 70%);
+            top: 40%;
+            left: 50%;
+            animation-delay: -14s;
+        }
+
+        @keyframes orbFloat {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            25% { transform: translate(30px, -30px) scale(1.05); }
+            50% { transform: translate(-20px, 20px) scale(0.95); }
+            75% { transform: translate(20px, 30px) scale(1.02); }
+        }
+
+        /* Geometric decoration - no photo replacement */
+        .hero-geometric {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 420px;
+            height: 420px;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .hero-geometric-svg {
+            width: 100%;
+            height: 100%;
+        }
+
+        .hero-konten {
+            max-width: 700px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-label {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--jarak-2);
+            font-family: var(--font-kode);
+            font-size: var(--teks-sm);
+            font-weight: var(--bobot-medium);
+            color: var(--warna-aksen);
+            letter-spacing: 0.06em;
+            margin-bottom: var(--jarak-5);
+            padding: var(--jarak-2) var(--jarak-4);
+            background: var(--warna-aksen-redup);
+            border: 1px solid var(--warna-aksen-border);
+            border-radius: var(--radius-penuh);
+        }
+
+        .hero-label-titik {
+            width: 8px;
+            height: 8px;
+            border-radius: var(--radius-penuh);
+            background-color: var(--warna-hijau);
+            box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.45);
+            animation: denyutStatus 2s ease-out infinite;
+        }
+
+        @keyframes denyutStatus {
+            0%   { box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.45); }
+            70%  { box-shadow: 0 0 0 8px rgba(52, 211, 153, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(52, 211, 153, 0); }
+        }
+
+        .hero-nama {
+            font-size: var(--teks-7xl);
+            letter-spacing: -0.03em;
+            margin-bottom: var(--jarak-3);
+            line-height: 1.1;
+        }
+
+        .hero-nama .aksen {
+            background: linear-gradient(135deg, var(--warna-aksen), #fbbf24, var(--warna-biru));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-title {
+            font-family: var(--font-judul);
+            font-size: var(--teks-2xl);
+            font-weight: var(--bobot-semibold);
+            color: var(--warna-teks-redup);
+            margin-bottom: var(--jarak-5);
+        }
+
+        .hero-title span {
+            color: var(--warna-teks);
+            border-bottom: 2px solid var(--warna-aksen);
+            padding-bottom: 2px;
+        }
+
+        .hero-tagline {
+            font-size: var(--teks-lg);
+            max-width: 620px;
+            margin-bottom: var(--jarak-8);
+        }
+
+        /* --- Badge tech stack --- */
+        .hero-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--jarak-2);
+            margin-bottom: var(--jarak-8);
+        }
+
+        .badge-teknologi {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--jarak-2);
+            padding: var(--jarak-2) var(--jarak-4);
+            border-radius: var(--radius-penuh);
+            background-color: var(--warna-bg-surface);
+            border: 1px solid var(--warna-border);
+            font-family: var(--font-kode);
+            font-size: var(--teks-xs);
+            font-weight: var(--bobot-medium);
+            color: var(--warna-teks-redup);
+            transition:
+                border-color var(--transisi-cepat),
+                color var(--transisi-cepat),
+                transform var(--transisi-cepat);
+        }
+
+        .badge-teknologi:hover {
+            border-color: var(--warna-aksen-border);
+            color: var(--warna-aksen);
+            transform: translateY(-2px);
+        }
+
+        .badge-teknologi i {
+            font-size: var(--teks-sm);
+        }
+
+        /* --- Tombol CTA hero --- */
+        .hero-cta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--jarak-3);
+            margin-bottom: var(--jarak-10);
+        }
+
+        /* --- Tautan sosial media --- */
+        .hero-sosial {
+            display: flex;
+            align-items: center;
+            gap: var(--jarak-3);
+        }
+
+        .tombol-sosial {
+            width: 42px;
+            height: 42px;
+            border-radius: var(--radius-md);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: var(--teks-lg);
+            color: var(--warna-teks-redup);
+            border: 1px solid var(--warna-border);
+            transition:
+                color var(--transisi-cepat),
+                border-color var(--transisi-cepat),
+                background-color var(--transisi-cepat),
+                transform var(--transisi-cepat);
+        }
+
+        .tombol-sosial:hover {
+            color: var(--warna-aksen);
+            border-color: var(--warna-aksen-border);
+            background-color: var(--warna-aksen-redup);
+            transform: translateY(-2px);
+        }
+
+        /* Responsive: hero menyesuaikan ukuran teks di mobile */
+        @media (max-width: 768px) {
+            .hero {
+                min-height: auto;
+                padding: var(--jarak-16) 0;
+            }
+
+            .hero-title {
+                font-size: var(--teks-xl);
+            }
+
+            .hero-tagline {
+                font-size: var(--teks-md);
+            }
+        }
+
+                @media (max-width: 480px) {
+            .hero-cta {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .hero-cta .tombol {
+                width: 100%;
+            }
+        }
+
+        /* =============================================
+           11. SECTION TENTANG (ABOUT)
+           Layout 2 kolom di desktop, 1 kolom di mobile.
+        ============================================= */
+        .tentang-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.6fr;
+            gap: var(--jarak-12);
+            align-items: start;
+        }
+
+        /* --- Kolom kiri: foto profil --- */
+        .tentang-foto-wrapper {
+            position: relative;
+        }
+
+        .tentang-foto {
+            border-radius: var(--radius-2xl);
+            overflow: hidden;
+            background: var(--warna-bg-raised);
+            border: 1px solid var(--warna-border);
+            aspect-ratio: 3 / 4;
+            max-width: 340px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .tentang-foto img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* Dekorasi geometric di belakang foto */
+        .tentang-foto-dekor {
+            position: absolute;
+            top: -12px;
+            left: -12px;
+            width: 100%;
+            height: 100%;
+            border: 1px solid var(--warna-aksen-border);
+            border-radius: var(--radius-2xl);
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        /* --- Kolom kanan: teks --- */
+        .tentang-bio {
+            display: flex;
+            flex-direction: column;
+            gap: var(--jarak-5);
+        }
+
+        .tentang-bio p {
+            font-size: var(--teks-md);
+            line-height: 1.8;
+        }
+
+        .tentang-bio p:first-of-type {
+            font-size: var(--teks-lg);
+            font-weight: var(--bobot-medium);
+            color: var(--warna-teks);
+        }
+
+        /* Highlight angka/info singkat */
+        .tentang-stat {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: var(--jarak-4);
+            margin-top: var(--jarak-4);
+            padding: var(--jarak-5);
+            background: var(--warna-bg-surface);
+            border: 1px solid var(--warna-border);
+            border-radius: var(--radius-xl);
+        }
+
+        .tentang-stat-item {
+            text-align: center;
+        }
+
+        .tentang-stat-angka {
+            font-family: var(--font-judul);
+            font-size: var(--teks-3xl);
+            font-weight: var(--bobot-bold);
+            color: var(--warna-aksen);
+            display: block;
+            line-height: 1.1;
+        }
+
+        .tentang-stat-label {
+            font-family: var(--font-kode);
+            font-size: var(--teks-xs);
+            color: var(--warna-teks-sangat-redup);
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            margin-top: var(--jarak-1);
+            display: block;
+        }
+
+        /* --- Skill Bars (progress bars) --- */
+        .tentang-skill {
+            margin-top: var(--jarak-6);
+        }
+
+        .tentang-skill-judul {
+            font-family: var(--font-judul);
+            font-size: var(--teks-md);
+            font-weight: var(--bobot-semibold);
+            color: var(--warna-teks);
+            margin-bottom: var(--jarak-5);
+        }
+
+        .tentang-skill-item {
+            margin-bottom: var(--jarak-4);
+        }
+
+        .tentang-skill-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: var(--jarak-2);
+        }
+
+        .tentang-skill-nama {
+            font-family: var(--font-kode);
+            font-size: var(--teks-sm);
+            font-weight: var(--bobot-medium);
+            color: var(--warna-teks);
+        }
+
+        .tentang-skill-persen {
+            font-family: var(--font-kode);
+            font-size: var(--teks-xs);
+            color: var(--warna-teks-redup);
+        }
+
+        .tentang-skill-track {
+            width: 100%;
+            height: 6px;
+            border-radius: var(--radius-penuh);
+            background: var(--warna-bg-raised);
+            overflow: hidden;
+        }
+
+        .tentang-skill-bar {
+            height: 100%;
+            border-radius: var(--radius-penuh);
+            background: linear-gradient(90deg, var(--warna-aksen), var(--warna-biru));
+            width: 0%;
+            transition: width 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* --- Tombol download CV --- */
+        .tentang-aksi {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--jarak-3);
+            margin-top: var(--jarak-6);
+        }
+
+        /* Responsive tentang */
+        @media (max-width: 768px) {
+            .tentang-grid {
+                grid-template-columns: 1fr;
+                gap: var(--jarak-8);
+            }
+
+            .tentang-foto {
+                max-width: 260px;
+                margin: 0 auto;
+            }
+
+            .tentang-stat {
+                grid-template-columns: repeat(3, 1fr);
+                padding: var(--jarak-4);
+            }
+
+            .tentang-stat-angka {
+                font-size: var(--teks-2xl);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .tentang-stat {
+                grid-template-columns: 1fr;
+                gap: var(--jarak-3);
+            }
+
+            .tentang-aksi {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .tentang-aksi .tombol {
+                width: 100%;
+            }
+        }
+
+                /* =============================================
+           12. PROJECT CARDS (#proyek)
+           Grid kartu proyek dengan efek hover.
+        ============================================= */
+        .proyek-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: var(--jarak-6);
+        }
+
+        /* Kartu proyek individual */
+        .kartu-proyek {
+            background: var(--warna-bg-surface);
+            border: 1px solid var(--warna-border);
+            border-radius: var(--radius-2xl);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            transition:
+                transform var(--transisi-normal),
+                border-color var(--transisi-normal),
+                box-shadow var(--transisi-normal);
+        }
+
+        .kartu-proyek:hover {
+            transform: translateY(-6px);
+            border-color: var(--warna-aksen-border);
+            box-shadow: var(--bayangan-aksen);
+        }
+
+        /* Thumbnail placeholder (gradient berwarna) */
+        .kartu-thumbnail {
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            color: rgba(255, 255, 255, 0.40);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .kartu-thumbnail i {
+            z-index: 1;
+        }
+
+        /* Warna latar thumbnail berbeda per proyek */
+        .kartu-thumbnail-thumb-1 {
+            background: linear-gradient(135deg, #1e3a5f 0%, #2d6a4f 100%);
+        }
+
+        .kartu-thumbnail-thumb-2 {
+            background: linear-gradient(135deg, #4a1a5e 0%, #1e3a5f 100%);
+        }
+
+        .kartu-thumbnail-thumb-3 {
+            background: linear-gradient(135deg, #5f3a1e 0%, #4a2d1a 100%);
+        }
+
+        /* Badge kecil di pojok thumbnail */
+        .kartu-thumbnail-badge {
+            position: absolute;
+            top: var(--jarak-3);
+            right: var(--jarak-3);
+            padding: var(--jarak-1) var(--jarak-3);
+            border-radius: var(--radius-penuh);
+            background: rgba(0, 0, 0, 0.50);
+            backdrop-filter: blur(4px);
+            font-family: var(--font-kode);
+            font-size: 0.65rem;
+            font-weight: var(--bobot-medium);
+            color: rgba(255, 255, 255, 0.85);
+            letter-spacing: 0.04em;
+        }
+
+        /* Konten kartu */
+        .kartu-body {
+            padding: var(--jarak-5);
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: var(--jarak-3);
+        }
+
+        .kartu-judul {
+            font-family: var(--font-judul);
+            font-size: var(--teks-lg);
+            font-weight: var(--bobot-semibold);
+            color: var(--warna-teks);
+            line-height: 1.3;
+        }
+
+        .kartu-deskripsi {
+            font-size: var(--teks-sm);
+            color: var(--warna-teks-redup);
+            line-height: 1.6;
+            flex: 1;
+        }
+
+        /* Tech stack tags di kartu */
+        .kartu-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--jarak-2);
+        }
+
+        .kartu-tag {
+            padding: var(--jarak-1) var(--jarak-3);
+            border-radius: var(--radius-penuh);
+            background: var(--warna-bg-raised);
+            font-family: var(--font-kode);
+            font-size: 0.7rem;
+            font-weight: var(--bobot-medium);
+            color: var(--warna-teks-redup);
+            border: 1px solid var(--warna-border);
+            transition:
+                border-color var(--transisi-cepat),
+                color var(--transisi-cepat);
+        }
+
+        .kartu-tag:hover {
+            border-color: var(--warna-aksen-border);
+            color: var(--warna-aksen);
+        }
+
+        /* Tombol detail di kartu */
+        .kartu-footer {
+            padding: 0 var(--jarak-5) var(--jarak-5);
+        }
+
+        .kartu-tombol-detail {
+            width: 100%;
+            padding: var(--jarak-3) var(--jarak-4);
+            border-radius: var(--radius-md);
+            background: var(--warna-bg-raised);
+            border: 1px solid var(--warna-border);
+            color: var(--warna-teks-redup);
+            font-family: var(--font-kode);
+            font-size: var(--teks-sm);
+            font-weight: var(--bobot-medium);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: var(--jarak-2);
+            transition:
+                background-color var(--transisi-cepat),
+                border-color var(--transisi-cepat),
+                color var(--transisi-cepat);
+        }
+
+        .kartu-tombol-detail:hover {
+            background: var(--warna-aksen-redup);
+            border-color: var(--warna-aksen-border);
+            color: var(--warna-aksen);
+        }
+
+        /* Responsive proyek grid */
+        @media (max-width: 992px) {
+            .proyek-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+                @media (max-width: 576px) {
+            .proyek-grid {
+                grid-template-columns: 1fr;
+                gap: var(--jarak-5);
+            }
+        }
+
+        /* =============================================
+           13. MODAL DETAIL PROYEK
+           Overlay + konten modal dengan animasi.
+        ============================================= */
+
+        /* Overlay modal */
+        .modal-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.65);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            z-index: var(--z-modal);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: var(--jarak-6);
+            opacity: 0;
+            visibility: hidden;
+            transition:
+                opacity var(--transisi-lambat),
+                visibility var(--transisi-lambat);
+        }
+
+        .modal-overlay.terbuka {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* Panel modal */
+        .modal-panel {
+            background: var(--warna-bg-surface);
+            border: 1px solid var(--warna-border);
+            border-radius: var(--radius-2xl);
+            max-width: 720px;
+            width: 100%;
+            max-height: 85vh;
+            overflow-y: auto;
+            position: relative;
+            transform: scale(0.92) translateY(16px);
+            transition:
+                transform var(--transisi-lambat),
+                opacity var(--transisi-lambat);
+            opacity: 0;
+        }
+
+        .modal-overlay.terbuka .modal-panel {
+            transform: scale(1) translateY(0);
+            opacity: 1;
+        }
+
+        /* Tombol tutup modal */
+        .modal-tutup {
+            position: absolute;
+            top: var(--jarak-4);
+            right: var(--jarak-4);
+            width: 36px;
+            height: 36px;
+            border-radius: var(--radius-md);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--warna-teks-redup);
+            background: var(--warna-bg-raised);
+            border: 1px solid var(--warna-border);
+            z-index: 2;
+            transition:
+                background-color var(--transisi-cepat),
+                border-color var(--transisi-cepat),
+                color var(--transisi-cepat);
+        }
+
+        .modal-tutup:hover {
+            background: var(--warna-aksen-redup);
+            border-color: var(--warna-aksen-border);
+            color: var(--warna-aksen);
+        }
+
+        /* Thumbnail besar di dalam modal */
+        .modal-thumbnail {
+            width: 100%;
+            aspect-ratio: 16 / 7;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            color: rgba(255, 255, 255, 0.30);
+            border-radius: var(--radius-2xl) var(--radius-2xl) 0 0;
+        }
+
+        .modal-thumbnail i {
+            z-index: 1;
+        }
+
+        /* Konten modal */
+        .modal-body {
+            padding: var(--jarak-6);
+            display: flex;
+            flex-direction: column;
+            gap: var(--jarak-5);
+        }
+
+        .modal-judul {
+            font-family: var(--font-judul);
+            font-size: var(--teks-2xl);
+            font-weight: var(--bobot-bold);
+            color: var(--warna-teks);
+            padding-right: var(--jarak-10);
+        }
+
+        .modal-deskripsi {
+            font-size: var(--teks-sm);
+            color: var(--warna-teks-redup);
+            line-height: 1.7;
+        }
+
+        /* Daftar fitur */
+        .modal-fitur {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--jarak-3);
+        }
+
+        .modal-fitur-item {
+            display: flex;
+            align-items: flex-start;
+            gap: var(--jarak-3);
+            font-size: var(--teks-sm);
+            color: var(--warna-teks-redup);
+            line-height: 1.5;
+        }
+
+        .modal-fitur-item i {
+            color: var(--warna-hijau);
+            margin-top: 3px;
+            flex-shrink: 0;
+            font-size: 0.75rem;
+        }
+
+        /* Tech stack grid di modal */
+        .modal-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--jarak-2);
+        }
+
+        .modal-stack-tag {
+            padding: var(--jarak-2) var(--jarak-4);
+            border-radius: var(--radius-penuh);
+            background: var(--warna-bg-raised);
+            border: 1px solid var(--warna-border);
+            font-family: var(--font-kode);
+            font-size: 0.75rem;
+            font-weight: var(--bobot-medium);
+            color: var(--warna-teks-redup);
+            transition:
+                border-color var(--transisi-cepat),
+                color var(--transisi-cepat);
+        }
+
+        .modal-stack-tag:hover {
+            border-color: var(--warna-aksen-border);
+            color: var(--warna-aksen);
+        }
+
+        /* Tautan aksi di modal */
+        .modal-tautan {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--jarak-3);
+            padding-top: var(--jarak-3);
+            border-top: 1px solid var(--warna-border);
+        }
+
+        /* Scrollbar di dalam modal */
+        .modal-panel::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        .modal-panel::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .modal-panel::-webkit-scrollbar-thumb {
+            background: var(--warna-border-aktif);
+            border-radius: var(--radius-penuh);
+        }
+
+        /* Responsive modal */
+        @media (max-width: 576px) {
+            .modal-overlay {
+                padding: var(--jarak-3);
+            }
+
+            .modal-body {
+                padding: var(--jarak-4);
+                gap: var(--jarak-4);
+            }
+
+            .modal-fitur {
+                grid-template-columns: 1fr;
+            }
+
+                        .modal-judul {
+                font-size: var(--teks-xl);
+            }
+        }
+
+        /* =============================================
+           14. TECH STACK GRID (#keahlian)
+           Grid ikon teknologi dengan kategori.
+        ============================================= */
+        .stack-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: var(--jarak-4);
+        }
+
+        .stack-item {
+            background: var(--warna-bg-surface);
+            border: 1px solid var(--warna-border);
+            border-radius: var(--radius-xl);
+            padding: var(--jarak-5);
+            text-align: center;
+            transition:
+                transform var(--transisi-cepat),
+                border-color var(--transisi-cepat),
+                box-shadow var(--transisi-cepat);
+        }
+
+        .stack-item:hover {
+            transform: translateY(-4px);
+            border-color: var(--warna-aksen-border);
+            box-shadow: var(--bayangan-aksen);
+        }
+
+        .stack-item i {
+            font-size: 2rem;
+            display: block;
+            margin-bottom: var(--jarak-3);
+        }
+
+        /* Ikon devicon yang tidak berwarna di-set ke warna teks */
+        .stack-item i:not([class*="colored"]) {
+            color: var(--warna-teks);
+        }
+
+        .stack-item-nama {
+            font-family: var(--font-kode);
+            font-size: var(--teks-xs);
+            font-weight: var(--bobot-medium);
+            color: var(--warna-teks-redup);
+            display: block;
+        }
+
+        /* Kategori label */
+        .stack-kategori {
+            margin-bottom: var(--jarak-6);
+        }
+
+        .stack-kategori:not(:first-child) {
+            margin-top: var(--jarak-8);
+        }
+
+        .stack-kategori-judul {
+            font-family: var(--font-judul);
+            font-size: var(--teks-sm);
+            font-weight: var(--bobot-semibold);
+            color: var(--warna-teks);
+            margin-bottom: var(--jarak-4);
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+
+        .stack-kategori-judul span {
+            color: var(--warna-aksen);
+        }
+
+        /* Responsive stack */
+        @media (max-width: 992px) {
+            .stack-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 576px) {
+            .stack-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: var(--jarak-3);
+            }
+
+            .stack-item {
+                padding: var(--jarak-4);
+            }
+
+            .stack-item i {
+                font-size: 1.5rem;
+            }
+        }
+
+        /* =============================================
+           15. TIMELINE VERTIKAL
+           Garis vertikal dengan node lingkaran.
+        ============================================= */
+        .timeline {
+            position: relative;
+            padding-left: var(--jarak-8);
+        }
+
+        /* Garis vertikal */
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 11px;
+            top: 8px;
+            bottom: 8px;
+            width: 2px;
+            background: linear-gradient(
+                to bottom,
+                var(--warna-aksen-border),
+                var(--warna-border) 50%,
+                var(--warna-aksen-border)
+            );
+        }
+
+        .timeline-node {
+            position: relative;
+            padding-bottom: var(--jarak-10);
+        }
+
+        .timeline-node:last-child {
+            padding-bottom: 0;
+        }
+
+        /* Lingkaran node */
+        .timeline-bullet {
+            position: absolute;
+            left: calc(-1 * var(--jarak-8) + 3px);
+            top: 4px;
+            width: 18px;
+            height: 18px;
+            border-radius: var(--radius-penuh);
+            background: var(--warna-bg);
+            border: 2px solid var(--warna-aksen);
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .timeline-bullet-inner {
+            width: 8px;
+            height: 8px;
+            border-radius: var(--radius-penuh);
+            background: var(--warna-aksen);
+            transition: transform var(--transisi-normal);
+        }
+
+        .timeline-node:hover .timeline-bullet-inner {
+            transform: scale(1.5);
+        }
+
+        /* Konten node */
+        .timeline-content {
+            background: var(--warna-bg-surface);
+            border: 1px solid var(--warna-border);
+            border-radius: var(--radius-xl);
+            padding: var(--jarak-5);
+            transition:
+                border-color var(--transisi-cepat),
+                box-shadow var(--transisi-cepat);
+        }
+
+        .timeline-content:hover {
+            border-color: var(--warna-aksen-border);
+            box-shadow: var(--bayangan-aksen);
+        }
+
+        .timeline-tanggal {
+            font-family: var(--font-kode);
+            font-size: var(--teks-xs);
+            color: var(--warna-aksen);
+            font-weight: var(--bobot-medium);
+            display: block;
+            margin-bottom: var(--jarak-2);
+        }
+
+        .timeline-judul {
+            font-family: var(--font-judul);
+            font-size: var(--teks-lg);
+            font-weight: var(--bobot-semibold);
+            color: var(--warna-teks);
+            margin-bottom: var(--jarak-2);
+        }
+
+        .timeline-deskripsi {
+            font-size: var(--teks-sm);
+            color: var(--warna-teks-redup);
+            line-height: 1.6;
+            margin-bottom: var(--jarak-3);
+        }
+
+        .timeline-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--jarak-2);
+        }
+
+        .timeline-tag {
+            padding: var(--jarak-1) var(--jarak-3);
+            border-radius: var(--radius-penuh);
+            background: var(--warna-aksen-cahaya);
+            border: 1px solid var(--warna-aksen-border);
+            font-family: var(--font-kode);
+            font-size: 0.65rem;
+            font-weight: var(--bobot-medium);
+            color: var(--warna-aksen);
+        }
+
+        /* Responsive timeline */
+        @media (max-width: 576px) {
+            .timeline {
+                padding-left: var(--jarak-6);
+            }
+
+            .timeline-bullet {
+                left: calc(-1 * var(--jarak-6) + 3px);
+            }
+
+            .timeline-content {
+                padding: var(--jarak-4);
+            }
+        }
+
+        /* =============================================
+           16. PLACEHOLDER SECTION
+           Sementara dipakai sebagai penanda posisi.
+           Akan diganti isi konten sesungguhnya per sesi.
+        ============================================= */
+        .section-placeholder {
+            min-height: 55vh;
+            border: 1px dashed var(--warna-border);
+            border-radius: var(--radius-2xl);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .placeholder-isi {
+            text-align: center;
+        }
+
+        .placeholder-id {
+            font-family: var(--font-kode);
+            font-size: var(--teks-3xl);
+            font-weight: var(--bobot-bold);
+            color: var(--warna-border-aktif);
+            display: block;
+            margin-bottom: var(--jarak-2);
+        }
+
+        .placeholder-keterangan {
+            font-family: var(--font-kode);
+            font-size: var(--teks-sm);
+            color: var(--warna-teks-sangat-redup);
+        }
+
+        /* =============================================
+           17. TOMBOL KEMBALI KE ATAS
+           Logika tampil/sembunyinya diisi di Sesi 8.
+        ============================================= */
+        #tombol-ke-atas {
+            position: fixed;
+            bottom: var(--jarak-8);
+            right: var(--jarak-6);
+            width: 44px;
+            height: 44px;
+            border-radius: var(--radius-lg);
+            background: var(--warna-bg-raised);
+            border: 1px solid var(--warna-border);
+            color: var(--warna-teks-redup);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: var(--z-melayang);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(8px);
+            transition:
+                opacity var(--transisi-normal),
+                visibility var(--transisi-normal),
+                transform var(--transisi-normal),
+                background-color var(--transisi-cepat),
+                border-color var(--transisi-cepat),
+                color var(--transisi-cepat);
+        }
+
+        #tombol-ke-atas:hover {
+            background-color: var(--warna-aksen-redup);
+            border-color: var(--warna-aksen-border);
+            color: var(--warna-aksen);
+        }
+
+        /* State visible â€” ditambahkan via JS di Sesi 8 */
+        #tombol-ke-atas.terlihat {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+                /* =============================================
+           18. FORM KONTAK
+        ============================================= */
+        .kontak-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: var(--jarak-12);
+            align-items: start;
+        }
+
+        /* Info kontak (kolom kiri) */
+        .kontak-info {
+            display: flex;
+            flex-direction: column;
+            gap: var(--jarak-5);
+        }
+
+        .kontak-info-judul {
+            font-family: var(--font-judul);
+            font-size: var(--teks-xl);
+            font-weight: var(--bobot-semibold);
+            color: var(--warna-teks);
+        }
+
+        .kontak-info p {
+            font-size: var(--teks-sm);
+            line-height: 1.7;
+        }
+
+        .kontak-info-item {
+            display: flex;
+            align-items: center;
+            gap: var(--jarak-3);
+            font-size: var(--teks-sm);
+            color: var(--warna-teks-redup);
+        }
+
+        .kontak-info-item i {
+            width: 36px;
+            height: 36px;
+            border-radius: var(--radius-md);
+            background: var(--warna-aksen-redup);
+            border: 1px solid var(--warna-aksen-border);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--warna-aksen);
+            flex-shrink: 0;
+        }
+
+        /* Form (kolom kanan) */
+        .kontak-form {
+            display: flex;
+            flex-direction: column;
+            gap: var(--jarak-4);
+        }
+
+        .kontak-form-group {
+            display: flex;
+            flex-direction: column;
+            gap: var(--jarak-2);
+        }
+
+        .kontak-form-label {
+            font-family: var(--font-kode);
+            font-size: var(--teks-xs);
+            font-weight: var(--bobot-medium);
+            color: var(--warna-teks-redup);
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+        }
+
+        .kontak-form-label .required {
+            color: var(--warna-merah);
+        }
+
+        .kontak-form-input,
+        .kontak-form-textarea {
+            padding: var(--jarak-3) var(--jarak-4);
+            border-radius: var(--radius-md);
+            background: var(--warna-bg-surface);
+            border: 1px solid var(--warna-border);
+            color: var(--warna-teks);
+            font-size: var(--teks-sm);
+            transition:
+                border-color var(--transisi-cepat),
+                box-shadow var(--transisi-cepat);
+        }
+
+        .kontak-form-input:focus,
+        .kontak-form-textarea:focus {
+            border-color: var(--warna-aksen);
+            box-shadow: 0 0 0 3px var(--warna-aksen-redup);
+        }
+
+        .kontak-form-input.error,
+        .kontak-form-textarea.error {
+            border-color: var(--warna-merah);
+            box-shadow: 0 0 0 3px rgba(248, 113, 113, 0.15);
+        }
+
+        .kontak-form-textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .kontak-form-error {
+            font-family: var(--font-kode);
+            font-size: var(--teks-xs);
+            color: var(--warna-merah);
+            display: none;
+        }
+
+        .kontak-form-error.terlihat {
+            display: block;
+        }
+
+        /* Input grup untuk nama + email sejajar di desktop */
+        .kontak-form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--jarak-4);
+        }
+
+        /* Tombol submit dengan loading state */
+        .kontak-form-submit {
+            position: relative;
+        }
+
+        .kontak-form-submit .tombol {
+            width: 100%;
+        }
+
+        .kontak-form-submit .tombol:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        /* Spinner loading di tombol submit */
+        .submit-spinner {
+            display: none;
+            width: 18px;
+            height: 18px;
+            border: 2px solid rgba(12, 18, 32, 0.25);
+            border-top-color: #0c1220;
+            border-radius: var(--radius-penuh);
+            animation: animasiLoading 0.7s linear infinite;
+        }
+
+        .tombol-primer.loading .submit-spinner {
+            display: inline-block;
+        }
+
+        .tombol-primer.loading .submit-text {
+            display: none;
+        }
+
+        /* Pesan sukses */
+        .kontak-form-sukses {
+            padding: var(--jarak-5);
+            border-radius: var(--radius-xl);
+            background: var(--warna-hijau-redup);
+            border: 1px solid rgba(52, 211, 153, 0.30);
+            text-align: center;
+            display: none;
+        }
+
+        .kontak-form-sukses.terlihat {
+            display: block;
+        }
+
+        .kontak-form-sukses i {
+            font-size: 2rem;
+            color: var(--warna-hijau);
+            margin-bottom: var(--jarak-3);
+        }
+
+        .kontak-form-sukses p {
+            font-size: var(--teks-sm);
+            color: var(--warna-teks);
+        }
+
+        /* Responsive kontak */
+        @media (max-width: 768px) {
+            .kontak-grid {
+                grid-template-columns: 1fr;
+                gap: var(--jarak-8);
+            }
+
+            .kontak-form-row {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* =============================================
+           19. FOOTER LENGKAP
+        ============================================= */
+        #footer {
+            border-top: 1px solid var(--warna-border);
+            padding: var(--jarak-10) 0 var(--jarak-8);
+        }
+
+        .footer-dalam {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: var(--jarak-5);
+        }
+
+        .footer-brand {
+            display: flex;
+            align-items: center;
+            gap: var(--jarak-3);
+            font-family: var(--font-judul);
+            font-size: var(--teks-lg);
+            font-weight: var(--bobot-semibold);
+            color: var(--warna-teks);
+        }
+
+        .footer-brand-kotak {
+            width: 30px;
+            height: 30px;
+            border-radius: var(--radius-md);
+            background: var(--warna-aksen);
+            color: #0c1220;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--font-judul);
+            font-size: 0.65rem;
+            font-weight: var(--bobot-bold);
+            letter-spacing: 0.04em;
+            flex-shrink: 0;
+        }
+
+        .footer-sosial {
+            display: flex;
+            align-items: center;
+            gap: var(--jarak-3);
+        }
+
+        .footer-sosial a {
+            width: 38px;
+            height: 38px;
+            border-radius: var(--radius-md);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: var(--teks-md);
+            color: var(--warna-teks-redup);
+            border: 1px solid var(--warna-border);
+            transition:
+                color var(--transisi-cepat),
+                border-color var(--transisi-cepat),
+                background-color var(--transisi-cepat),
+                transform var(--transisi-cepat);
+        }
+
+        .footer-sosial a:hover {
+            color: var(--warna-aksen);
+            border-color: var(--warna-aksen-border);
+            background-color: var(--warna-aksen-redup);
+            transform: translateY(-2px);
+        }
+
+        .footer-teks {
+            font-family: var(--font-kode);
+            font-size: var(--teks-sm);
+            color: var(--warna-teks-sangat-redup);
+            text-align: center;
+        }
+
+        .footer-teks .aksen {
+            color: var(--warna-aksen);
+        }
+
+        /* =============================================
+           20. SCROLLBAR KUSTOM
+        ============================================= */
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--warna-bg);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--warna-border-aktif);
+            border-radius: var(--radius-penuh);
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--warna-teks-sangat-redup);
+        }
+
+        /* =============================================
+           21. RESPONSIVE DASAR
+           Breakpoint khusus diisi per section di sesi berikutnya.
+        ============================================= */
+        @media (max-width: 768px) {
+            :root {
+                --teks-4xl: 2rem;
+                --teks-5xl: 2.5rem;
+                --teks-6xl: 3rem;
+                --padding-section: var(--jarak-16) 0;
+            }
+
+            .navbar-menu {
+                display: none;
+            }
+
+            .tombol-hamburger {
+                display: flex;
+            }
+        }
+
+        @media (max-width: 480px) {
+            :root {
+                --padding-section: var(--jarak-12) 0;
+            }
+
+            .kontainer {
+                padding: 0 var(--jarak-4);
+            }
+        }
+
+                /* =============================================
+           22. ANIMASI GLOBAL
+        ============================================= */
+
+        /**
+         * Animasi fade-in-up untuk elemen yang masuk saat scroll.
+         * Tambahkan kelas .animasi-masuk pada elemen, dan JS akan
+         * menambahkan kelas .terlihat saat elemen masuk viewport.
+         *
+         * CSS transition + delay via nth-child untuk efek stagger.
+         */
+        .animasi-masuk {
+            opacity: 0;
+            transform: translateY(28px);
+            transition:
+                opacity 520ms cubic-bezier(0.22, 1, 0.36, 1),
+                transform 520ms cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        .animasi-masuk.terlihat {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Stagger delay untuk grid items */
+        .animasi-masuk:nth-child(1)  { transition-delay: 0ms;    }
+        .animasi-masuk:nth-child(2)  { transition-delay: 80ms;   }
+        .animasi-masuk:nth-child(3)  { transition-delay: 160ms;  }
+        .animasi-masuk:nth-child(4)  { transition-delay: 240ms;  }
+        .animasi-masuk:nth-child(5)  { transition-delay: 320ms;  }
+        .animasi-masuk:nth-child(6)  { transition-delay: 400ms;  }
+        .animasi-masuk:nth-child(7)  { transition-delay: 480ms;  }
+        .animasi-masuk:nth-child(8)  { transition-delay: 560ms;  }
+        .animasi-masuk:nth-child(9)  { transition-delay: 640ms;  }
+        .animasi-masuk:nth-child(10) { transition-delay: 720ms;  }
+
+        /* Hormati preferensi reduced-motion */
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+
+            html {
+                scroll-behavior: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Skip link â€” aksesibilitas untuk keyboard user -->
+    <a href="#beranda" class="skip-link" aria-label="Lompat ke konten utama">
+        Lompat ke konten utama
+    </a>
+
+    <!-- =============================================
+         LAYAR LOADING
+         Disembunyikan via JS setelah window.onload.
+    ============================================= -->
+    <div id="layar-loading" role="status" aria-live="polite" aria-label="Memuat halaman">
+        <div class="loading-inisial" aria-hidden="true">
+            <div class="loading-ring"></div>
+            <div class="loading-kotak">EKA</div>
+        </div>
+        <p class="loading-teks">
+            memuat <span class="aksen">portofolio</span>&hellip;
+        </p>
+    </div>
+
+    <!-- =============================================
+         BILAH PROGRESS BACA
+         Lebar dikendalikan via JS di Sesi 8.
+    ============================================= -->
+    <div
+        id="bilah-progress"
+        role="progressbar"
+        aria-label="Progress membaca halaman"
+        aria-valuenow="0"
+        aria-valuemin="0"
+        aria-valuemax="100"
+    ></div>
+
+    <!-- =============================================
+         NAVBAR STICKY
+    ============================================= -->
+    <header id="navbar" role="banner">
+        <div class="kontainer navbar-dalam">
+
+            <!-- Logo: inisial + nama panggilan -->
+            <a href="#beranda" class="navbar-logo" aria-label="Kembali ke atas halaman">
+                
+                <span class="navbar-logo-kotak" aria-hidden="true">EKA</span>
+                rikchodam
+            </a>
+
+            <!-- Menu navigasi desktop -->
+            <nav class="navbar-menu" role="navigation" aria-label="Navigasi utama">
+                <a href="#beranda"  class="navbar-link aktif" aria-current="page">Beranda</a>
+                <a href="#tentang"  class="navbar-link">Tentang</a>
+                <a href="#proyek"   class="navbar-link">Proyek</a>
+                <a href="#keahlian" class="navbar-link">Keahlian</a>
+                <a href="#kontak"   class="navbar-link">Kontak</a>
+            </nav>
+
+            <!-- Aksi kanan navbar -->
+            <div class="navbar-aksi">
+
+                <!-- Toggle tema gelap/terang â€” logika penuh di Sesi 7 -->
+                <button
+                    id="tombol-tema"
+                    class="tombol-tema"
+                    aria-label="Ganti ke tema terang"
+                    title="Ganti tema"
+                >
+                    <i class="fa-solid fa-moon" aria-hidden="true"></i>
+                </button>
+
+                <!-- Hamburger menu mobile â€” animasi & panel di Sesi 9 -->
+                <button
+                    id="tombol-hamburger"
+                    class="tombol-hamburger"
+                    aria-label="Buka menu navigasi"
+                    aria-expanded="false"
+                    aria-controls="navbar-menu-mobile"
+                >
+                    <span class="hamburger-garis"></span>
+                    <span class="hamburger-garis"></span>
+                    <span class="hamburger-garis"></span>
+                </button>
+
+            </div>
+        </div>
+
+        <!-- Panel menu mobile -->
+        <div id="navbar-menu-mobile" aria-label="Menu navigasi mobile">
+            <a href="#beranda" class="mobile-link navbar-link" data-target="beranda">Beranda</a>
+            <a href="#tentang" class="mobile-link navbar-link" data-target="tentang">Tentang</a>
+            <a href="#proyek" class="mobile-link navbar-link" data-target="proyek">Proyek</a>
+            <a href="#keahlian" class="mobile-link navbar-link" data-target="keahlian">Keahlian</a>
+            <a href="#timeline" class="mobile-link navbar-link" data-target="timeline">Timeline</a>
+            <a href="#kontak" class="mobile-link navbar-link" data-target="kontak">Kontak</a>
+            <div class="mobile-divider" role="separator" aria-hidden="true"></div>
+            <div class="mobile-tema" id="mobile-tema" role="button" tabindex="0" aria-label="Ganti tema">
+                <span>Tema Gelap</span>
+                <i class="fa-solid fa-moon" aria-hidden="true"></i>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- =============================================
+         KONTEN UTAMA
+    ============================================= -->
+    <main id="konten-utama" role="main" style="padding-top: var(--tinggi-navbar);">
+
+        <!-- SECTION: BERANDA / HERO -->
+        <section id="beranda" class="section hero" aria-labelledby="judul-beranda">
+            <div class="kontainer">
+                <div class="hero-konten">
+
+                    <span class="hero-label">
+                        <span class="hero-label-titik" aria-hidden="true"></span>
+                        terbuka untuk proyek baru
+                    </span>
+
+                    <h1 id="judul-beranda" class="hero-nama">
+                        Erik Khoirul <span class="aksen">Adam</span>
+                    </h1>
+
+                    <p class="hero-title">Full-Stack Laravel Developer</p>
+
+                    <p class="hero-tagline">
+                        Membangun sistem web yang solid dari kebutuhan edukasi hingga
+                        industrial &mdash; mulai dari ujian online dan manajemen ID card,
+                        sampai otomasi laporan maintenance berbasis AI.
+                    </p>
+
+                    <!-- Badge tech stack utama -->
+                    <div class="hero-badges" aria-label="Teknologi utama">
+                        <span class="badge-teknologi"><i class="devicon-laravel-plain colored" aria-hidden="true"></i>Laravel</span>
+                        <span class="badge-teknologi"><i class="devicon-php-plain colored" aria-hidden="true"></i>PHP</span>
+                        <span class="badge-teknologi"><i class="devicon-tailwindcss-plain colored" aria-hidden="true"></i>Tailwind CSS</span>
+                        <span class="badge-teknologi"><i class="fa-solid fa-bolt" aria-hidden="true"></i>Livewire</span>
+                        <span class="badge-teknologi"><i class="devicon-alpinejs-original colored" aria-hidden="true"></i>Alpine.js</span>
+                        <span class="badge-teknologi"><i class="devicon-mysql-plain colored" aria-hidden="true"></i>MySQL</span>
+                    </div>
+
+                    <!-- Tombol aksi utama -->
+                    <div class="hero-cta">
+                        <a href="#proyek" class="tombol tombol-primer">
+                            <i class="fa-solid fa-diagram-project" aria-hidden="true"></i>
+                            Lihat Proyek
+                        </a>
+                        <a href="#kontak" class="tombol tombol-sekunder">
+                            <i class="fa-regular fa-paper-plane" aria-hidden="true"></i>
+                            Hubungi Saya
+                        </a>
+                    </div>
+
+                    <!-- Tautan sosial media -->
+                    <div class="hero-sosial" aria-label="Tautan sosial media">
+                        <a
+                            href="https://github.com/rikchodam-glitch"
+                            class="tombol-sosial"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Kunjungi profil GitHub Erik Khoirul Adam"
+                            title="GitHub"
+                        >
+                            <i class="fa-brands fa-github" aria-hidden="true"></i>
+                        </a>
+                        <a
+                            href="https://www.linkedin.com/in/erik-khoirul-adam-6b814138a/"
+                            class="tombol-sosial"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Kunjungi profil LinkedIn Erik Khoirul Adam"
+                            title="LinkedIn"
+                        >
+                            <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                        </a>
+                        <a
+                            href="mailto:rikchodam@gmail.com"
+                            class="tombol-sosial"
+                            aria-label="Kirim email ke rikchodam@gmail.com"
+                            title="Email"
+                        >
+                            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+                </section>
+
+        <!-- SECTION: TENTANG SAYA -->
+        <section id="tentang" class="section" aria-labelledby="judul-tentang">
+            <div class="kontainer">
+                <div class="section-header">
+                    <span class="section-label">// tentang</span>
+                    <h2 id="judul-tentang" class="section-judul section-judul-garis">
+                        Siapa di Balik&nbsp;<span class="aksen">Layar</span>
+                    </h2>
+                    <p class="section-deskripsi">
+                        Full-Stack Laravel Developer dengan pengalaman membangun sistem
+                        web dari hulu ke hilir &mdash; dari edukasi hingga industrial.
+                    </p>
+                </div>
+
+                <div class="tentang-grid">
+
+                    <!-- Kolom kiri: foto profil -->
+                    <div class="tentang-foto-wrapper">
+    <div class="tentang-foto">
+        <!-- 
+            Foto profil mengambil dari folder assets yang ada di repository GitHub Anda.
+            Pastikan nama file dan ekstensinya (jpg/png) sudah sesuai.
+        -->
+        <img
+            src="assets/foto.jpg"
+            alt="Foto profil Erik Khoirul Adam"
+            width="340"
+            height="453"
+            loading="lazy"
+        >
+    </div>
+    <div class="tentang-foto-dekor" aria-hidden="true"></div>
+</div>
+
+                    <!-- Kolom kanan: bio + skills -->
+                    <div class="tentang-bio">
+
+                        <p>
+                            Halo, saya <strong>Erik Khoirul Adam</strong> &mdash;
+                            dikenal sebagai <strong>rikchodam</strong>.
+                            Saya seorang pengembang web full-stack yang fokus pada
+                            ekosistem Laravel dan ekosistem PHP modern.
+                        </p>
+
+                        <p>
+                            Perjalanan saya dimulai dari kebutuhan nyata: membuat
+                            sistem ujian online untuk bimbel, lalu merambah ke
+                            manajemen SDM dengan ID card generator, dan kini
+                            mengerjakan sistem manajemen maintenance di industri
+                            oleochemical yang terintegrasi dengan AI dan Telegram bot.
+                        </p>
+
+                        <p>
+                            Setiap proyek saya kerjakan dengan pendekatan
+                            <strong>test-driven thinking</strong>, kode yang
+                            terstruktur, dan dokumentasi yang rapi. Saya percaya
+                            bahwa kode yang baik adalah yang bisa dipahami oleh
+                            orang lain &mdash; termasuk diri saya sendiri enam bulan
+                            kemudian.
+                        </p>
+
+                        <!-- Statistik singkat -->
+                        <div class="tentang-stat" aria-label="Statistik singkat">
+                            <div class="tentang-stat-item">
+                                <span class="tentang-stat-angka">3+</span>
+                                <span class="tentang-stat-label">Proyek Laravel</span>
+                            </div>
+                            <div class="tentang-stat-item">
+                                <span class="tentang-stat-angka">5+</span>
+                                <span class="tentang-stat-label">Teknologi Dikuasai</span>
+                            </div>
+                            <div class="tentang-stat-item">
+                                <span class="tentang-stat-angka">2025</span>
+                                <span class="tentang-stat-label">Mulai Aktif Coding</span>
+                            </div>
+                        </div>
+
+                        <!-- Skill bars -->
+                        <div class="tentang-skill">
+                            <h3 class="tentang-skill-judul">Kompetensi Teknis</h3>
+
+                            <div class="tentang-skill-item">
+                                <div class="tentang-skill-header">
+                                    <span class="tentang-skill-nama">Laravel &amp; PHP</span>
+                                    <span class="tentang-skill-persen">90%</span>
+                                </div>
+                                <div class="tentang-skill-track">
+                                    <div class="tentang-skill-bar" data-persen="90" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="tentang-skill-item">
+                                <div class="tentang-skill-header">
+                                    <span class="tentang-skill-nama">Tailwind CSS &amp; Frontend</span>
+                                    <span class="tentang-skill-persen">85%</span>
+                                </div>
+                                <div class="tentang-skill-track">
+                                    <div class="tentang-skill-bar" data-persen="85" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="tentang-skill-item">
+                                <div class="tentang-skill-header">
+                                    <span class="tentang-skill-nama">Livewire &amp; Alpine.js</span>
+                                    <span class="tentang-skill-persen">80%</span>
+                                </div>
+                                <div class="tentang-skill-track">
+                                    <div class="tentang-skill-bar" data-persen="80" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="tentang-skill-item">
+                                <div class="tentang-skill-header">
+                                    <span class="tentang-skill-nama">MySQL &amp; Database Design</span>
+                                    <span class="tentang-skill-persen">85%</span>
+                                </div>
+                                <div class="tentang-skill-track">
+                                    <div class="tentang-skill-bar" data-persen="85" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="tentang-skill-item">
+                                <div class="tentang-skill-header">
+                                    <span class="tentang-skill-nama">API &amp; Integrasi Sistem</span>
+                                    <span class="tentang-skill-persen">75%</span>
+                                </div>
+                                <div class="tentang-skill-track">
+                                    <div class="tentang-skill-bar" data-persen="75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tombol aksi -->
+                        <div class="tentang-aksi">
+                            <a href="#proyek" class="tombol tombol-primer">
+                                <i class="fa-solid fa-diagram-project" aria-hidden="true"></i>
+                                Lihat Proyek
+                            </a>
+                            <a
+                                href="#"
+                                class="tombol tombol-sekunder"
+                                aria-label="Download CV (PDF)"
+                                title="Download CV"
+                            >
+                                <i class="fa-regular fa-file-lines" aria-hidden="true"></i>
+                                Download CV
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+                <!-- SECTION: PROYEK -->
+        <section id="proyek" class="section" aria-labelledby="judul-proyek">
+            <div class="kontainer">
+                <div class="section-header">
+                    <span class="section-label">// proyek</span>
+                    <h2 id="judul-proyek" class="section-judul section-judul-garis">
+                        Proyek yang Pernah&nbsp;<span class="aksen">Dikerjakan</span>
+                    </h2>
+                    <p class="section-deskripsi">
+                        Tiga proyek Laravel dari ranah yang berbeda &mdash; edukasi,
+                        manajemen SDM, hingga sistem industrial. Masing-masing
+                        punya tantangan unik yang membuat saya terus belajar.
+                    </p>
+                </div>
+
+                <div class="proyek-grid" id="daftar-proyek">
+                    <!-- Kartu akan di-render oleh JavaScript -->
+                </div>
+            </div>
+                </section>
+
+        <!-- =============================================
+             MODAL DETAIL PROYEK
+             Overlay penuh dengan panel konten.
+             Dikendalikan sepenuhnya oleh JavaScript.
+        ============================================= -->
+        <div
+            id="modal-proyek"
+            class="modal-overlay"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="modal-judul"
+        >
+            <div class="modal-panel" role="document">
+                <button
+                    id="modal-tutup"
+                    class="modal-tutup"
+                    type="button"
+                    aria-label="Tutup detail proyek"
+                >
+                    <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                </button>
+
+                <!-- Thumbnail besar (gradient) -->
+                <div id="modal-thumbnail" class="modal-thumbnail" aria-hidden="true">
+                    <i class="fa-solid fa-diagram-project"></i>
+                </div>
+
+                <div class="modal-body">
+                    <h3 id="modal-judul" class="modal-judul"></h3>
+                    <p id="modal-deskripsi" class="modal-deskripsi"></p>
+
+                    <!-- Daftar fitur -->
+                    <div>
+                        <h4 class="tentang-skill-judul" style="margin-bottom: var(--jarak-3);">
+                            <i class="fa-solid fa-list-check" aria-hidden="true" style="margin-right: 8px;"></i>
+                            Fitur Unggulan
+                        </h4>
+                        <ul id="modal-fitur" class="modal-fitur"></ul>
+                    </div>
+
+                    <!-- Tech stack -->
+                    <div>
+                        <h4 class="tentang-skill-judul" style="margin-bottom: var(--jarak-3);">
+                            <i class="fa-solid fa-cubes" aria-hidden="true" style="margin-right: 8px;"></i>
+                            Tech Stack
+                        </h4>
+                        <div id="modal-stack" class="modal-stack"></div>
+                    </div>
+
+                    <!-- Tautan -->
+                    <div id="modal-tautan" class="modal-tautan"></div>
+                </div>
+            </div>
+        </div>
+
+                <!-- SECTION: KEAHLIAN / TECH STACK -->
+        <section id="keahlian" class="section" aria-labelledby="judul-keahlian">
+            <div class="kontainer">
+                <div class="section-header">
+                    <span class="section-label">// keahlian</span>
+                    <h2 id="judul-keahlian" class="section-judul section-judul-garis">
+                        Teknologi yang&nbsp;<span class="aksen">Dikuasai</span>
+                    </h2>
+                    <p class="section-deskripsi">
+                        Ekosistem teknologi yang saya gunakan di tiga proyek terakhir,
+                        dari backend hingga deployment.
+                    </p>
+                </div>
+
+                <!-- Kategori: Backend -->
+                <div class="stack-kategori">
+                    <h3 class="stack-kategori-judul"><span>//</span> Backend</h3>
+                    <div class="stack-grid">
+                        <div class="stack-item animasi-masuk">
+                            <i class="devicon-laravel-plain colored" aria-hidden="true"></i>
+                            <span class="stack-item-nama">Laravel</span>
+                        </div>
+                        <div class="stack-item animasi-masuk">
+                            <i class="devicon-php-plain colored" aria-hidden="true"></i>
+                            <span class="stack-item-nama">PHP</span>
+                        </div>
+                        <div class="stack-item animasi-masuk">
+                            <i class="devicon-livewire-plain colored" aria-hidden="true"></i>
+                            <span class="stack-item-nama">Livewire</span>
+                        </div>
+                        <div class="stack-item animasi-masuk">
+                            <i class="fa-brands fa-python" aria-hidden="true"></i>
+                            <span class="stack-item-nama">Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kategori: Frontend -->
+                <div class="stack-kategori">
+                    <h3 class="stack-kategori-judul"><span>//</span> Frontend</h3>
+                    <div class="stack-grid">
+                        <div class="stack-item animasi-masuk">
+                            <i class="devicon-tailwindcss-plain colored" aria-hidden="true"></i>
+                            <span class="stack-item-nama">Tailwind CSS</span>
+                        </div>
+                        <div class="stack-item animasi-masuk">
+                            <i class="devicon-alpinejs-original colored" aria-hidden="true"></i>
+                            <span class="stack-item-nama">Alpine.js</span>
+                        </div>
+                        <div class="stack-item animasi-masuk">
+                            <i class="devicon-html5-plain colored" aria-hidden="true"></i>
+                            <span class="stack-item-nama">HTML5</span>
+                        </div>
+                        <div class="stack-item animasi-masuk">
+                            <i class="devicon-css3-plain colored" aria-hidden="true"></i>
+                            <span class="stack-item-nama">CSS3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kategori: Database -->
+                <div class="stack-kategori">
+                    <h3 class="stack-kategori-judul"><span>//</span> Database &amp; Tools</h3>
+                    <div class="stack-grid">
+                        <div class="stack-item animasi-masuk">
+                            <i class="devicon-mysql-plain colored" aria-hidden="true"></i>
+                            <span class="stack-item-nama">MySQL</span>
+                        </div>
+                        <div class="stack-item animasi-masuk">
+                            <i class="devicon-git-plain colored" aria-hidden="true"></i>
+                            <span class="stack-item-nama">Git</span>
+                        </div>
+                        <div class="stack-item animasi-masuk">
+                            <i class="devicon-composer-line colored" aria-hidden="true"></i>
+                            <span class="stack-item-nama">Composer</span>
+                        </div>
+                        <div class="stack-item animasi-masuk">
+                            <i class="devicon-npm-original-wordmark colored" aria-hidden="true"></i>
+                            <span class="stack-item-nama">NPM</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kategori: Libraries & Services -->
+                <div class="stack-kategori">
+                    <h3 class="stack-kategori-judul"><span>//</span> Libraries &amp; Services</h3>
+                    <div class="stack-grid">
+                        <div class="stack-item animasi-masuk">
+                            <i class="fa-solid fa-qrcode" aria-hidden="true" style="color: var(--warna-aksen);"></i>
+                            <span class="stack-item-nama">QR Code</span>
+                        </div>
+                        <div class="stack-item animasi-masuk">
+                            <i class="fa-brands fa-whatsapp" aria-hidden="true" style="color: #25D366;"></i>
+                            <span class="stack-item-nama">WhatsApp API</span>
+                        </div>
+                        <div class="stack-item animasi-masuk">
+                            <i class="fa-brands fa-telegram" aria-hidden="true" style="color: #229ED9;"></i>
+                            <span class="stack-item-nama">Telegram Bot</span>
+                        </div>
+                        <div class="stack-item animasi-masuk">
+                            <i class="fa-solid fa-robot" aria-hidden="true" style="color: var(--warna-ungu);"></i>
+                            <span class="stack-item-nama">AI Provider</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+                <!-- SECTION: TIMELINE -->
+        <section id="timeline" class="section" aria-labelledby="judul-timeline">
+            <div class="kontainer">
+                <div class="section-header">
+                    <span class="section-label">// timeline</span>
+                    <h2 id="judul-timeline" class="section-judul section-judul-garis">
+                        Perjalanan&nbsp;<span class="aksen">Proyek</span>
+                    </h2>
+                    <p class="section-deskripsi">
+                        Rentang waktu pengerjaan tiga proyek Laravel yang saya
+                        kerjakan secara berurutan sepanjang tahun 2025&ndash;2026.
+                    </p>
+                </div>
+
+                <div class="timeline">
+
+                    <!-- Node 1: Bimbel Online -->
+                    <div class="timeline-node animasi-masuk">
+                        <div class="timeline-bullet" aria-hidden="true">
+                            <div class="timeline-bullet-inner"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-tanggal">Februari &ndash; Juni 2025</span>
+                            <h3 class="timeline-judul">Bimbel Online</h3>
+                            <p class="timeline-deskripsi">
+                                Proyek pertama ekosistem Laravel 12. Sistem manajemen
+                                bimbingan belajar end-to-end: dari bank soal, ujian
+                                online real-time, absensi QR code, hingga broadcast
+                                WhatsApp multi-provider dan laporan Excel/PDF.
+                            </p>
+                            <div class="timeline-tags">
+                                <span class="timeline-tag">Laravel 12</span>
+                                <span class="timeline-tag">Tailwind CSS</span>
+                                <span class="timeline-tag">MySQL</span>
+                                <span class="timeline-tag">QR Code</span>
+                                <span class="timeline-tag">WhatsApp API</span>
+                                <span class="timeline-tag">DOMPDF</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Node 2: ID Card Generator -->
+                    <div class="timeline-node animasi-masuk">
+                        <div class="timeline-bullet" aria-hidden="true">
+                            <div class="timeline-bullet-inner"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-tanggal">Juli &ndash; Oktober 2025</span>
+                            <h3 class="timeline-judul">ID Card Generator</h3>
+                            <p class="timeline-deskripsi">
+                                Proyek kedua yang fokus pada manajemen SDM: CRUD
+                                karyawan dengan soft delete, ID card generator
+                                dengan kustomisasi penuh, ekspor PNG via Browsershot,
+                                dan import/export Excel ribuan data dalam satu klik.
+                            </p>
+                            <div class="timeline-tags">
+                                <span class="timeline-tag">Laravel 12</span>
+                                <span class="timeline-tag">Livewire</span>
+                                <span class="timeline-tag">Tailwind CSS</span>
+                                <span class="timeline-tag">Spatie Browsershot</span>
+                                <span class="timeline-tag">OpenSpout</span>
+                                <span class="timeline-tag">NativePHP</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Node 3: Oleochemical Pro -->
+                    <div class="timeline-node animasi-masuk">
+                        <div class="timeline-bullet" aria-hidden="true">
+                            <div class="timeline-bullet-inner"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-tanggal">November 2025 &ndash; Maret 2026</span>
+                            <h3 class="timeline-judul">Oleochemical Pro</h3>
+                            <p class="timeline-deskripsi">
+                                Proyek ketiga dan paling kompleks: sistem manajemen
+                                maintenance industrial dengan hierarki asset,
+                                approval flow teknisi, laporan perbaikan via Telegram
+                                bot wizard, dan AI multi-provider untuk keyword
+                                parsing dan alias management.
+                            </p>
+                            <div class="timeline-tags">
+                                <span class="timeline-tag">Laravel 13</span>
+                                <span class="timeline-tag">Alpine.js</span>
+                                <span class="timeline-tag">Tailwind CSS</span>
+                                <span class="timeline-tag">Telegram Bot</span>
+                                <span class="timeline-tag">AI Provider</span>
+                                <span class="timeline-tag">FastExcel</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+                <!-- SECTION: KONTAK -->
+        <section id="kontak" class="section" aria-labelledby="judul-kontak">
+            <div class="kontainer">
+                <div class="section-header">
+                    <span class="section-label">// kontak</span>
+                    <h2 id="judul-kontak" class="section-judul section-judul-garis">
+                        Mari&nbsp;<span class="aksen">Berkolaborasi</span>
+                    </h2>
+                    <p class="section-deskripsi">
+                        Punya ide, proyek, atau sekadar ingin ngobrol tentang
+                        Laravel? Jangan ragu untuk menghubungi saya.
+                    </p>
+                </div>
+
+                <div class="kontak-grid">
+                    <!-- Info kontak -->
+                    <div class="kontak-info">
+                        <h3 class="kontak-info-judul">Temukan Saya</h3>
+                        <p>
+                            Saya selalu terbuka untuk diskusi teknis, peluang
+                            kolaborasi, atau proyek baru yang menantang.
+                            Respons cepat via email atau LinkedIn.
+                        </p>
+
+                        <div class="kontak-info-item">
+                            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                            rikchodam@gmail.com
+                        </div>
+                        <div class="kontak-info-item">
+                            <i class="fa-brands fa-github" aria-hidden="true"></i>
+                            github.com/rikchodam-glitch
+                        </div>
+                        <div class="kontak-info-item">
+                            <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                            linkedin.com/in/erik-khoirul-adam
+                        </div>
+
+                        <!-- Testimoni singkat -->
+                        <div style="margin-top: var(--jarak-4); padding: var(--jarak-5); background: var(--warna-bg-surface); border: 1px solid var(--warna-border); border-radius: var(--radius-xl);">
+                            <p style="font-size: var(--teks-sm); font-style: italic; color: var(--warna-teks-redup); margin-bottom: var(--jarak-3);">
+                                &ldquo;Kode yang rapi, komunikasi yang jelas, dan
+                                pengiriman tepat waktu. Senang bekerja sama.&rdquo;
+                            </p>
+                            <p style="font-family: var(--font-kode); font-size: var(--teks-xs); color: var(--warna-teks-sangat-redup);">
+                                &mdash; Klien (proyek Bimbel Online)
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Form kontak -->
+                    <form
+                        id="kontak-form"
+                        class="kontak-form"
+                        action="https://formspree.io/f/xovqpyvr"
+                        method="POST"
+                        novalidate
+                    >
+                        <div class="kontak-form-row">
+                            <div class="kontak-form-group">
+                                <label class="kontak-form-label" for="kontak-nama">
+                                    Nama <span class="required">*</span>
+                                </label>
+                                <input
+                                    type="text"
+                                    id="kontak-nama"
+                                    name="name"
+                                    class="kontak-form-input"
+                                    placeholder="Nama lengkap"
+                                    required
+                                    autocomplete="name"
+                                >
+                                <span class="kontak-form-error" id="error-nama">
+                                    <i class="fa-solid fa-circle-exclamation" aria-hidden="true" style="margin-right: 4px;"></i>
+                                    Nama harus diisi
+                                </span>
+                            </div>
+                            <div class="kontak-form-group">
+                                <label class="kontak-form-label" for="kontak-email">
+                                    Email <span class="required">*</span>
+                                </label>
+                                <input
+                                    type="email"
+                                    id="kontak-email"
+                                    name="email"
+                                    class="kontak-form-input"
+                                    placeholder="email@contoh.com"
+                                    required
+                                    autocomplete="email"
+                                >
+                                <span class="kontak-form-error" id="error-email">
+                                    <i class="fa-solid fa-circle-exclamation" aria-hidden="true" style="margin-right: 4px;"></i>
+                                    Email tidak valid
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="kontak-form-group">
+                            <label class="kontak-form-label" for="kontak-subjek">Subjek</label>
+                            <input
+                                type="text"
+                                id="kontak-subjek"
+                                name="subject"
+                                class="kontak-form-input"
+                                placeholder="Subjek pesan"
+                            >
+                        </div>
+
+                        <div class="kontak-form-group">
+                            <label class="kontak-form-label" for="kontak-pesan">
+                                Pesan <span class="required">*</span>
+                            </label>
+                            <textarea
+                                id="kontak-pesan"
+                                name="message"
+                                class="kontak-form-textarea"
+                                placeholder="Tulis pesan Anda di sini..."
+                                required
+                            ></textarea>
+                            <span class="kontak-form-error" id="error-pesan">
+                                <i class="fa-solid fa-circle-exclamation" aria-hidden="true" style="margin-right: 4px;"></i>
+                                Pesan harus diisi
+                            </span>
+                        </div>
+
+                        <div class="kontak-form-submit">
+                            <button type="submit" class="tombol tombol-primer" id="tombol-kirim">
+                                <span class="submit-spinner"></span>
+                                <span class="submit-text">
+                                    <i class="fa-regular fa-paper-plane" aria-hidden="true"></i>
+                                    Kirim Pesan
+                                </span>
+                            </button>
+                        </div>
+
+                        <div class="kontak-form-sukses" id="kontak-sukses">
+                            <i class="fa-regular fa-circle-check" aria-hidden="true"></i>
+                            <p>Pesan berhasil terkirim! Saya akan menghubungi Anda segera.</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+        <!-- =============================================
+         FOOTER
+    ============================================= -->
+    <footer id="footer" role="contentinfo">
+        <div class="kontainer footer-dalam">
+            <div class="footer-brand">
+                <span class="footer-brand-kotak" aria-hidden="true">EKA</span>
+                rikchodam
+            </div>
+
+            <div class="footer-sosial" aria-label="Tautan sosial media">
+                <a
+                    href="https://github.com/rikchodam-glitch"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="GitHub"
+                    title="GitHub"
+                >
+                    <i class="fa-brands fa-github" aria-hidden="true"></i>
+                </a>
+                <a
+                    href="https://www.linkedin.com/in/erik-khoirul-adam-6b814138a/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn"
+                    title="LinkedIn"
+                >
+                    <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                </a>
+                <a
+                    href="mailto:rikchodam@gmail.com"
+                    aria-label="Email"
+                    title="Email"
+                >
+                    <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                </a>
+            </div>
+
+            <p class="footer-teks">
+                &copy; 2026 &mdash; Dibuat dengan <span class="aksen">Laravel</span>
+                oleh <strong>Erik Khoirul Adam</strong>
+            </p>
+        </div>
+    </footer>
+
+    <!-- =============================================
+         TOMBOL KEMBALI KE ATAS
+         Logika tampil/sembunyi diisi di Sesi 8.
+    ============================================= -->
+    <button
+        id="tombol-ke-atas"
+        aria-label="Kembali ke atas halaman"
+        title="Kembali ke atas"
+    >
+        <i class="fa-solid fa-chevron-up" aria-hidden="true"></i>
+    </button>
+
+    <!-- =============================================
+         JAVASCRIPT
+    ============================================= -->
+        <script>
+        /* ================================================
+           DATA PROYEK
+           Array utama yang digunakan untuk merender kartu
+           proyek dan modal detail. Satu source of truth.
+        ================================================ */
+        const dataProyek = [
+            {
+                id: 'bimbel-online',
+                judul: 'Bimbel Online',
+                singkat: 'Sistem manajemen bimbingan belajar dengan ujian online, absensi QR, dan broadcast WhatsApp multi-provider.',
+                deskripsi: 'Platform all-in-one untuk bimbel yang menangani manajemen bank soal, tryout/ujian online real-time, absensi via QR code, jadwal kelas interaktif, laporan ulangan (Excel/PDF), broadcast WhatsApp multi-provider, slider website, testimoni, dan manajemen website penuh.',
+                fitur: [
+                    'Manajemen bank soal dengan kategorisasi',
+                    'Tryout dan ujian online real-time',
+                    'Absensi QR code otomatis',
+                    'Jadwal kelas interaktif',
+                    'Laporan ulangan ekspor Excel & PDF (DOMPDF)',
+                    'Broadcast WhatsApp multi-provider',
+                    'Slider & testimoni website',
+                    'Manajemen konten website penuh',
+                ],
+                stack: ['Laravel 12', 'Tailwind CSS', 'MySQL', 'QR Code', 'WhatsApp API', 'TinyMCE', 'MathJax', 'DOMPDF', 'PhpWord'],
+                thumbnail: 1,
+                tautanDemo: '#',
+                tautanRepo: 'https://github.com/rikchodam-glitch',
+            },
+            {
+                id: 'id-card-generator',
+                judul: 'ID Card Generator',
+                singkat: 'Generator ID card karyawan dengan kustomisasi layout, ekspor PNG, dan import/export Excel ribuan data.',
+                deskripsi: 'Aplikasi manajemen karyawan berbasis Laravel yang dilengkapi ID card generator dengan kustomisasi layout, header, background, dan ukuran. Mendukung ekspor ID card ke PNG via Spatie Browsershot, import/export Excel ribuan data via OpenSpout, serta fitur mass archive, restore, dan force-delete dengan soft delete.',
+                fitur: [
+                    'CRUD karyawan lengkap dengan soft delete',
+                    'ID card generator kustom (layout, header, background, ukuran)',
+                    'Ekspor ID card ke PNG',
+                    'Import/export Excel ribuan data (OpenSpout)',
+                    'Mass archive, restore, dan force-delete',
+                    'Integrasi dengan NativePHP',
+                ],
+                stack: ['Laravel 12', 'Livewire', 'Tailwind CSS', 'QR Code (endroid)', 'Spatie Browsershot', 'OpenSpout', 'NativePHP'],
+                thumbnail: 2,
+                tautanDemo: '#',
+                tautanRepo: 'https://github.com/rikchodam-glitch',
+            },
+            {
+                id: 'oleochemical-pro',
+                judul: 'Oleochemical Pro',
+                singkat: 'Sistem maintenance industrial dengan manajemen asset, teknisi, dan laporan perbaikan via Telegram bot AI.',
+                deskripsi: 'Sistem manajemen maintenance untuk industri oleochemical yang mencakup manajemen asset & functional location hierarkis, import asset dari Excel, teknisi management dengan approval flow, laporan perbaikan via Telegram bot wizard, AI keyword parsing, dan AI alias management multi-provider (OpenAI/Gemini/Claude).',
+                fitur: [
+                    'Manajemen asset & functional location hierarkis',
+                    'Import asset dari Excel (FastExcel/PhpSpreadsheet)',
+                    'Teknisi management dengan approval flow',
+                    'Laporan perbaikan via Telegram bot wizard',
+                    'AI keyword parsing multi-provider',
+                    'AI alias management',
+                    'Integrasi Telegram Bot API',
+                ],
+                stack: ['Laravel 13', 'Alpine.js', 'Tailwind CSS', 'Telegram Bot API', 'AI Multi-Provider', 'FastExcel', 'PhpSpreadsheet'],
+                thumbnail: 3,
+                tautanDemo: '#',
+                tautanRepo: 'https://github.com/rikchodam-glitch',
+            },
+        ];
+
+        /**
+         * Merender kartu proyek ke dalam DOM berdasarkan dataProyek.
+         */
+        function renderKartuProyek() {
+            const container = document.getElementById('daftar-proyek');
+            if (!container) return;
+
+            container.innerHTML = dataProyek.map(function (proyek, index) {
+                // Ambil maksimal 4 tech stack untuk ditampilkan di kartu
+                const tagsTampil = proyek.stack.slice(0, 4);
+                const sisaStack = proyek.stack.length - 4;
+
+                return `
+                    <article class="kartu-proyek animasi-masuk" data-proyek-id="${proyek.id}">
+                        <div class="kartu-thumbnail kartu-thumbnail-thumb-${proyek.thumbnail}">
+                            <i class="fa-solid fa-diagram-project" aria-hidden="true"></i>
+                            <span class="kartu-thumbnail-badge">${proyek.stack[0]}</span>
+                        </div>
+                        <div class="kartu-body">
+                            <h3 class="kartu-judul">${proyek.judul}</h3>
+                            <p class="kartu-deskripsi">${proyek.singkat}</p>
+                            <div class="kartu-tags">
+                                ${tagsTampil.map(function (tag) {
+                                    return `<span class="kartu-tag">${tag}</span>`;
+                                }).join('')}
+                                ${sisaStack > 0 ? `<span class="kartu-tag">+${sisaStack}</span>` : ''}
+                            </div>
+                        </div>
+                        <div class="kartu-footer">
+                            <button
+                                class="kartu-tombol-detail"
+                                type="button"
+                                data-proyek-id="${proyek.id}"
+                                aria-label="Detail proyek ${proyek.judul}"
+                            >
+                                <i class="fa-regular fa-eye" aria-hidden="true"></i>
+                                Detail Proyek
+                            </button>
+                        </div>
+                    </article>
+                `;
+            }).join('');
+        }
+
+        /**
+         * Titik masuk utama aplikasi.
+         * Semua inisialisasi JS dimulai setelah DOM siap.
+         */
+        document.addEventListener('DOMContentLoaded', function () {
+
+            /* ------------------------------------------------
+               Referensi elemen â€” dikumpulkan di satu tempat
+               agar mudah dilacak antar sesi.
+            ------------------------------------------------ */
+            const el = {
+                layarLoading:   document.getElementById('layar-loading'),
+                navbar:         document.getElementById('navbar'),
+                bilahProgress:  document.getElementById('bilah-progress'),
+                tombolTema:     document.getElementById('tombol-tema'),
+                tombolHamburger:document.getElementById('tombol-hamburger'),
+                tombolKeAtas:   document.getElementById('tombol-ke-atas'),
+                menuMobile:     document.getElementById('navbar-menu-mobile'),
+                navbarLinks:    document.querySelectorAll('.navbar-link[href^="#"]'),
+            };
+
+            /* ------------------------------------------------
+               RENDER KARTU PROYEK
+            ------------------------------------------------ */
+            renderKartuProyek();
+
+            /* ------------------------------------------------
+               MODAL DETAIL PROYEK
+               Event delegation: tombol .kartu-tombol-detail
+               memicu buka modal dengan data dari dataProyek.
+            ------------------------------------------------ */
+
+            const modalProyek  = document.getElementById('modal-proyek');
+            const modalTutup   = document.getElementById('modal-tutup');
+            const modalJudul   = document.getElementById('modal-judul');
+            const modalDeskripsi = document.getElementById('modal-deskripsi');
+            const modalFitur   = document.getElementById('modal-fitur');
+            const modalStack   = document.getElementById('modal-stack');
+            const modalTautan  = document.getElementById('modal-tautan');
+            const modalThumbnail = document.getElementById('modal-thumbnail');
+
+            /** Nama kelas thumbnail berdasarkan indeks */
+            const KELAS_THUMBNAIL = ['', 'kartu-thumbnail-thumb-1', 'kartu-thumbnail-thumb-2', 'kartu-thumbnail-thumb-3'];
+
+            /**
+             * Membuka modal dan mengisi konten berdasarkan id proyek.
+             * @param {string} proyekId - ID proyek dari dataProyek
+             */
+            function bukaModal(proyekId) {
+                const proyek = dataProyek.find(function (p) { return p.id === proyekId; });
+                if (!proyek) return;
+
+                // Isi konten
+                modalJudul.textContent = proyek.judul;
+                modalDeskripsi.textContent = proyek.deskripsi;
+
+                // Fitur
+                modalFitur.innerHTML = proyek.fitur.map(function (f) {
+                    return '<li class="modal-fitur-item"><i class="fa-solid fa-check" aria-hidden="true"></i>' + f + '</li>';
+                }).join('');
+
+                // Tech stack
+                modalStack.innerHTML = proyek.stack.map(function (s) {
+                    return '<span class="modal-stack-tag">' + s + '</span>';
+                }).join('');
+
+                // Tautan
+                modalTautan.innerHTML = ''
+                    + '<a href="' + proyek.tautanRepo + '" class="tombol tombol-sekunder" target="_blank" rel="noopener noreferrer" aria-label="Lihat repository ' + proyek.judul + '">'
+                        + '<i class="fa-brands fa-github" aria-hidden="true"></i> Repository'
+                    + '</a>'
+                    + '<a href="' + proyek.tautanDemo + '" class="tombol tombol-primer" target="_blank" rel="noopener noreferrer" aria-label="Lihat demo ' + proyek.judul + '">'
+                        + '<i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Demo'
+                    + '</a>';
+
+                // Thumbnail
+                const kelasThumb = KELAS_THUMBNAIL[proyek.thumbnail] || 'kartu-thumbnail-thumb-1';
+                modalThumbnail.className = 'modal-thumbnail ' + kelasThumb;
+
+                // Buka modal
+                modalProyek.classList.add('terbuka');
+                document.body.style.overflow = 'hidden';
+
+                // Fokus ke tombol tutup untuk aksesibilitas
+                modalTutup.focus();
+            }
+
+            /**
+             * Menutup modal dan mengembalikan scroll.
+             */
+            function tutupModal() {
+                modalProyek.classList.remove('terbuka');
+                document.body.style.overflow = '';
+            }
+
+            // Event delegation: klik tombol detail di kartu
+            document.getElementById('daftar-proyek').addEventListener('click', function (e) {
+                const tombol = e.target.closest('.kartu-tombol-detail');
+                if (tombol) {
+                    e.preventDefault();
+                    bukaModal(tombol.getAttribute('data-proyek-id'));
+                }
+            });
+
+            // Tombol tutup
+            modalTutup.addEventListener('click', tutupModal);
+
+            // Klik di luar panel (overlay) tutup modal
+            modalProyek.addEventListener('click', function (e) {
+                if (e.target === modalProyek) {
+                    tutupModal();
+                }
+            });
+
+            // Escape key tutup modal
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape' && modalProyek.classList.contains('terbuka')) {
+                    tutupModal();
+                }
+            });
+
+            /* ------------------------------------------------
+               LOADING SCREEN
+               Sembunyikan layar loading setelah seluruh aset
+               (font, gambar, CDN) selesai dimuat oleh browser.
+            ------------------------------------------------ */
+
+            /**
+             * Menyembunyikan layar loading dengan transisi CSS.
+             */
+            function sembunyikanLoading() {
+                if (!el.layarLoading) return;
+                el.layarLoading.classList.add('tersembunyi');
+            }
+
+            if (document.readyState === 'complete') {
+                // Halaman sudah sepenuhnya dimuat sebelum DOMContentLoaded selesai
+                setTimeout(sembunyikanLoading, 400);
+            } else {
+                window.addEventListener('load', function () {
+                    // Beri jeda singkat agar animasi spinner terlihat
+                    setTimeout(sembunyikanLoading, 600);
+                });
+            }
+
+            /* ------------------------------------------------
+               NAVBAR: efek background saat discroll
+            ------------------------------------------------ */
+
+            /**
+             * Menambah/menghapus kelas .navbar-scrolled berdasarkan posisi scroll.
+             */
+            function periksaScrollNavbar() {
+                if (!el.navbar) return;
+
+                if (window.scrollY > 24) {
+                    el.navbar.classList.add('navbar-scrolled');
+                } else {
+                    el.navbar.classList.remove('navbar-scrolled');
+                }
+            }
+
+            // Jalankan sekali saat halaman pertama dimuat
+            periksaScrollNavbar();
+
+            /* ------------------------------------------------
+               NAVBAR: highlight link aktif berdasarkan section
+               yang sedang terlihat di viewport.
+            ------------------------------------------------ */
+
+            // Kumpulkan seluruh section utama yang punya id (target navigasi)
+            const daftarSection = document.querySelectorAll('main .section[id]');
+
+            /**
+             * Menentukan section mana yang sedang aktif berdasarkan
+             * posisi scroll, lalu memberi kelas .aktif pada link
+             * navbar yang bersesuaian.
+             */
+            function perbaruiLinkAktif() {
+                if (!daftarSection.length || !el.navbarLinks.length) return;
+
+                // Titik acuan: sedikit di bawah navbar agar transisi terasa pas
+                const titikAcuan = window.scrollY + el.navbar.offsetHeight + 32;
+
+                let idSectionAktif = daftarSection[0].id;
+
+                daftarSection.forEach(function (section) {
+                    if (titikAcuan >= section.offsetTop) {
+                        idSectionAktif = section.id;
+                    }
+                });
+
+                el.navbarLinks.forEach(function (link) {
+                    const cocok = link.getAttribute('href') === '#' + idSectionAktif;
+                    link.classList.toggle('aktif', cocok);
+
+                    if (cocok) {
+                        link.setAttribute('aria-current', 'page');
+                    } else {
+                        link.removeAttribute('aria-current');
+                    }
+                });
+            }
+
+            // Jalankan sekali saat halaman pertama dimuat
+            perbaruiLinkAktif();
+
+                        /* ------------------------------------------------
+               SCROLL EVENT LISTENER TERPUSAT
+               Semua fungsi yang bergantung pada scroll
+               dikumpulkan dalam satu listener untuk performa.
+            ------------------------------------------------ */
+
+            /**
+             * Memperbarui lebar reading progress bar berdasarkan
+             * posisi scroll relatif terhadap total tinggi halaman.
+             */
+            function perbaruiBilahProgress() {
+                if (!el.bilahProgress) return;
+
+                const scrollAtas = window.scrollY;
+                const tinggiDokumen = document.documentElement.scrollHeight - window.innerHeight;
+
+                if (tinggiDokumen <= 0) {
+                    el.bilahProgress.style.width = '0%';
+                    return;
+                }
+
+                const persen = (scrollAtas / tinggiDokumen) * 100;
+                el.bilahProgress.style.width = persen + '%';
+                el.bilahProgress.setAttribute('aria-valuenow', Math.round(persen));
+            }
+
+            /**
+             * Menampilkan atau menyembunyikan tombol kembali ke atas
+             * berdasarkan posisi scroll.
+             */
+            function periksaTombolKeAtas() {
+                if (!el.tombolKeAtas) return;
+                el.tombolKeAtas.classList.toggle('terlihat', window.scrollY > 400);
+            }
+
+            // Jalankan satu kali untuk inisialisasi awal
+            perbaruiBilahProgress();
+            periksaTombolKeAtas();
+
+            window.addEventListener('scroll', function () {
+                periksaScrollNavbar();
+                perbaruiLinkAktif();
+                perbaruiBilahProgress();
+                periksaTombolKeAtas();
+            }, { passive: true });
+
+            /* ------------------------------------------------
+               INTERSECTION OBSERVER â€” ANIMASI SCROLL
+               Memantau elemen dengan kelas .animasi-masuk dan
+               menambahkan kelas .terlihat saat masuk viewport.
+               Mendukung stagger delay via nth-child.
+            ------------------------------------------------ */
+
+            /**
+             * Menginisialisasi Intersection Observer untuk semua
+             * elemen dengan kelas .animasi-masuk.
+             */
+            (function initScrollAnimator() {
+                const elemen = document.querySelectorAll('.animasi-masuk');
+                if (!elemen.length) return;
+
+                if (!('IntersectionObserver' in window)) {
+                    // Fallback: tampilkan semua langsung
+                    elemen.forEach(function (el) { el.classList.add('terlihat'); });
+                    return;
+                }
+
+                const observer = new IntersectionObserver(function (entries) {
+                    entries.forEach(function (entry) {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('terlihat');
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, {
+                    threshold: 0.10,
+                    rootMargin: '0px 0px -40px 0px',
+                });
+
+                elemen.forEach(function (el) { observer.observe(el); });
+            })();
+
+            /* ------------------------------------------------
+               TOMBOL TEMA (dark mode toggle)
+               Mengubah tema gelap/terang dengan persistensi
+               localStorage. Tema default: gelap.
+            ------------------------------------------------ */
+
+            /**
+             * Menerapkan tema ke elemen html dan menyimpan ke localStorage.
+             * @param {string} tema - 'gelap' atau 'terang'
+             */
+            function terapkanTema(tema) {
+                document.documentElement.setAttribute('data-tema', tema);
+                localStorage.setItem('tema-portofolio', tema);
+
+                // Update ikon tombol
+                const ikon = el.tombolTema.querySelector('i');
+                if (ikon) {
+                    ikon.className = tema === 'gelap'
+                        ? 'fa-solid fa-moon'
+                        : 'fa-solid fa-sun';
+                }
+
+                                // Update aria-label tombol utama
+                el.tombolTema.setAttribute(
+                    'aria-label',
+                    tema === 'gelap' ? 'Ganti ke tema terang' : 'Ganti ke tema gelap'
+                );
+
+                // Sinkronisasi ikon dan label di menu mobile
+                const mobileTema = document.getElementById('mobile-tema');
+                if (mobileTema) {
+                    const ikonMobile = mobileTema.querySelector('i');
+                    const teksMobile = mobileTema.querySelector('span');
+                    if (ikonMobile) {
+                        ikonMobile.className = tema === 'gelap'
+                            ? 'fa-solid fa-moon'
+                            : 'fa-solid fa-sun';
+                    }
+                    if (teksMobile) {
+                        teksMobile.textContent = tema === 'gelap' ? 'Tema Gelap' : 'Tema Terang';
+                    }
+                    mobileTema.setAttribute(
+                        'aria-label',
+                        tema === 'gelap' ? 'Ganti ke tema terang' : 'Ganti ke tema gelap'
+                    );
+                }
+            }
+
+            // Muat tema dari localStorage saat halaman dimuat
+            const temaTersimpan = localStorage.getItem('tema-portofolio');
+            if (temaTersimpan && (temaTersimpan === 'gelap' || temaTersimpan === 'terang')) {
+                terapkanTema(temaTersimpan);
+            }
+
+            if (el.tombolTema) {
+                el.tombolTema.addEventListener('click', function () {
+                    const temaSaatIni = document.documentElement.getAttribute('data-tema');
+                    const temaBaru = temaSaatIni === 'gelap' ? 'terang' : 'gelap';
+                    terapkanTema(temaBaru);
+                });
+            }
+
+            // Sinkronisasi toggle tema dari menu mobile
+            const mobileTema = document.getElementById('mobile-tema');
+            if (mobileTema) {
+                mobileTema.addEventListener('click', function () {
+                    const temaSaatIni = document.documentElement.getAttribute('data-tema');
+                    const temaBaru = temaSaatIni === 'gelap' ? 'terang' : 'gelap';
+                    terapkanTema(temaBaru);
+                });
+            }
+
+            /* ------------------------------------------------
+               VALIDASI FORM KONTAK
+               Validasi sisi klien dan submit ke Formspree.
+            ------------------------------------------------ */
+            (function initFormKontak() {
+                const form = document.getElementById('kontak-form');
+                if (!form) return;
+
+                const inputNama  = document.getElementById('kontak-nama');
+                const inputEmail = document.getElementById('kontak-email');
+                const inputPesan = document.getElementById('kontak-pesan');
+                const errorNama  = document.getElementById('error-nama');
+                const errorEmail = document.getElementById('error-email');
+                const errorPesan = document.getElementById('error-pesan');
+                const tombolKirim = document.getElementById('tombol-kirim');
+                const suksesMsg   = document.getElementById('kontak-sukses');
+
+                /** Regex validasi email sederhana */
+                const RE_EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+                /**
+                 * Menampilkan error pada sebuah field.
+                 * @param {HTMLElement} input - Elemen input/textarea
+                 * @param {HTMLElement} errorEl - Elemen pesan error
+                 * @param {boolean} tampil - true untuk tampilkan error
+                 */
+                function setError(input, errorEl, tampil) {
+                    input.classList.toggle('error', tampil);
+                    errorEl.classList.toggle('terlihat', tampil);
+                }
+
+                /**
+                 * Validasi seluruh form. Mengembalikan true jika valid.
+                 */
+                function validasiForm() {
+                    let valid = true;
+
+                    // Nama: required
+                    const namaTrim = inputNama.value.trim();
+                    if (!namaTrim) {
+                        setError(inputNama, errorNama, true);
+                        valid = false;
+                    } else {
+                        setError(inputNama, errorNama, false);
+                    }
+
+                    // Email: required + format
+                    const emailTrim = inputEmail.value.trim();
+                    if (!emailTrim || !RE_EMAIL.test(emailTrim)) {
+                        setError(inputEmail, errorEmail, true);
+                        valid = false;
+                    } else {
+                        setError(inputEmail, errorEmail, false);
+                    }
+
+                    // Pesan: required
+                    const pesanTrim = inputPesan.value.trim();
+                    if (!pesanTrim) {
+                        setError(inputPesan, errorPesan, true);
+                        valid = false;
+                    } else {
+                        setError(inputPesan, errorPesan, false);
+                    }
+
+                    return valid;
+                }
+
+                // Real-time validasi saat user mengetik
+                inputNama.addEventListener('input', function () {
+                    if (this.value.trim()) setError(this, errorNama, false);
+                });
+                inputEmail.addEventListener('input', function () {
+                    if (RE_EMAIL.test(this.value.trim())) setError(this, errorEmail, false);
+                });
+                inputPesan.addEventListener('input', function () {
+                    if (this.value.trim()) setError(this, errorPesan, false);
+                });
+
+                // Submit handler
+                form.addEventListener('submit', function (e) {
+                    e.preventDefault();
+
+                    // Reset pesan sukses
+                    suksesMsg.classList.remove('terlihat');
+
+                    if (!validasiForm()) return;
+
+                    // Tampilkan loading state
+                    tombolKirim.classList.add('loading');
+                    tombolKirim.disabled = true;
+
+                    // Kirim ke Formspree via fetch
+                    const dataForm = new FormData(form);
+
+                    fetch(form.action, {
+                        method: 'POST',
+                        body: dataForm,
+                        headers: { 'Accept': 'application/json' },
+                    })
+                    .then(function (res) {
+                        if (res.ok) {
+                            // Sukses
+                            suksesMsg.classList.add('terlihat');
+                            form.reset();
+                        } else {
+                            alert('Gagal mengirim pesan. Silakan coba lagi atau kirim langsung ke rikchodam@gmail.com.');
+                        }
+                    })
+                    .catch(function () {
+                        alert('Gagal mengirim pesan. Silakan coba lagi atau kirim langsung ke rikchodam@gmail.com.');
+                    })
+                    .finally(function () {
+                        tombolKirim.classList.remove('loading');
+                        tombolKirim.disabled = false;
+                    });
+                });
+            })();
+
+                        /* ------------------------------------------------
+               TOMBOL HAMBURGER MOBILE
+               Buka/tutup panel navigasi mobile dan sinkronkan
+               ikon hamburger, aria-expanded, serta scroll lock.
+            ------------------------------------------------ */
+            if (el.tombolHamburger && el.menuMobile) {
+                /**
+                 * Menutup menu mobile dan mereset state.
+                 */
+                function tutupMenuMobile() {
+                    el.tombolHamburger.classList.remove('terbuka');
+                    el.tombolHamburger.setAttribute('aria-expanded', 'false');
+                    el.menuMobile.classList.remove('terbuka');
+                    document.body.style.overflow = '';
+                }
+
+                /**
+                 * Membuka menu mobile dan mengunci scroll body.
+                 */
+                function bukaMenuMobile() {
+                    el.tombolHamburger.classList.add('terbuka');
+                    el.tombolHamburger.setAttribute('aria-expanded', 'true');
+                    el.menuMobile.classList.add('terbuka');
+                    document.body.style.overflow = 'hidden';
+                }
+
+                // Toggle klik tombol hamburger
+                el.tombolHamburger.addEventListener('click', function () {
+                    const sedangTerbuka = el.menuMobile.classList.contains('terbuka');
+                    if (sedangTerbuka) {
+                        tutupMenuMobile();
+                    } else {
+                        bukaMenuMobile();
+                    }
+                });
+
+                // Tutup menu mobile saat link di dalamnya diklik
+                el.menuMobile.addEventListener('click', function (e) {
+                    const link = e.target.closest('.mobile-link');
+                    if (link) {
+                        tutupMenuMobile();
+                    }
+                });
+
+                // Tutup menu mobile saat Escape ditekan
+                document.addEventListener('keydown', function (e) {
+                    if (e.key === 'Escape' && el.menuMobile.classList.contains('terbuka')) {
+                        tutupMenuMobile();
+                    }
+                });
+
+                // Tutup menu mobile saat klik di luar (overlay)
+                document.addEventListener('click', function (e) {
+                    if (!el.menuMobile.classList.contains('terbuka')) return;
+                    const dalamPanel = el.menuMobile.contains(e.target);
+                    const dalamTombol = el.tombolHamburger.contains(e.target);
+                    if (!dalamPanel && !dalamTombol) {
+                        tutupMenuMobile();
+                    }
+                });
+            }
+
+            /* ------------------------------------------------
+               TOMBOL KEMBALI KE ATAS
+            ------------------------------------------------ */
+            if (el.tombolKeAtas) {
+                el.tombolKeAtas.addEventListener('click', function () {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                });
+            }
+
+            /* ------------------------------------------------
+               ANIMASI PROGRESS BAR (SKILL BARS)
+               Menggunakan Intersection Observer untuk mengisi
+               progress bar saat section #tentang masuk viewport.
+            ------------------------------------------------ */
+
+            /**
+             * Mengisi semua progress bar dalam container tertentu
+             * dengan lebar sesuai atribut data-persen.
+             * @param {HTMLElement} container - Elemen induk yang berisi .tentang-skill-bar
+             */
+            function isiProgressBar(container) {
+                const bars = container.querySelectorAll('.tentang-skill-bar');
+                bars.forEach(function (bar) {
+                    const persen = bar.getAttribute('data-persen');
+                    if (persen) {
+                        bar.style.width = persen + '%';
+                        bar.setAttribute('aria-valuenow', persen);
+                    }
+                });
+            }
+
+            /**
+             * Mengamati apakah section #tentang sudah terlihat.
+             * Jika ya, jalankan animasi progress bar dan hentikan observasi.
+             */
+            (function initProgressObserver() {
+                const tentangSection = document.getElementById('tentang');
+                if (!tentangSection || !('IntersectionObserver' in window)) {
+                    // Fallback: isi langsung jika Observer tidak didukung
+                    isiProgressBar(document.body);
+                    return;
+                }
+
+                const observer = new IntersectionObserver(function (entries) {
+                    entries.forEach(function (entry) {
+                        if (entry.isIntersecting) {
+                            isiProgressBar(entry.target);
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, {
+                    threshold: 0.25,
+                });
+
+                observer.observe(tentangSection);
+            })();
+
+        }); // akhir DOMContentLoaded
+    </script>
+
+</body>
+</html>
